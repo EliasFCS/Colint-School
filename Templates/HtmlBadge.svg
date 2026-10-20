@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 18" width="65" height="18" role="img" aria-label="HTML" preserveAspectRatio="xMidYMid meet">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63 18" width="63" height="18" role="img" aria-label="HTML" preserveAspectRatio="xMidYMid meet">
   <defs>
-    <clipPath id="r"><rect width="65" height="18" rx="3" /></clipPath>
+    <clipPath id="r"><rect width="63" height="18" rx="3" /></clipPath>
     <linearGradient id="g" x2="0" y2="1">
       <stop offset="0" stop-color="#fff" stop-opacity=".25"/>
       <stop offset="1" stop-opacity=".25" stop-color="#000"/>
