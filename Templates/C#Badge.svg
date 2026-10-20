@@ -1,42 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="46.4" height="18"
-     viewBox="0 0 46.4 18"
-     role="img" aria-label="C#" preserveAspectRatio="xMidYMid meet">
+<svg xmlns="http://www.w3.org/2000/svg" width="46.4" height="18" role="img" aria-label="C#" preserveAspectRatio="xMidYMid meet">
   <defs>
-    <clipPath id="badge-clip">
-      <rect width="46.4" height="18" rx="3"/>
-    </clipPath>
-    <linearGradient id="badge-shade" x2="0" y2="1">
-      <stop offset="0" stop-color="#fff" stop-opacity=".15"/>
-      <stop offset="1" stop-color="#000" stop-opacity=".15"/>
+    <clipPath id="r"><rect width="46.4" height="18" rx="3" /></clipPath>
+    <linearGradient id="g" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".25"/>
+      <stop offset="1" stop-opacity=".25" stop-color="#000"/>
     </linearGradient>
   </defs>
-
-  <g clip-path="url(#badge-clip)">
-    <rect width="46.4" height="18" fill="#fff"/>
-    <rect x="19.8" width="26.6" height="18" fill="#280068"/>
-    <rect width="46.4" height="18" fill="url(#badge-shade)"/>
+  <g clip-path="url(#r)">
+    <rect width="32.4" height="18" fill="#FFFFFF"/> 
+    <rect x="19.8" width="26.6" height="18" fill="#280068"/> 
+    <rect width="46.4" height="18" fill="url(#g)"/>
   </g>
 
-  <!-- Logo C# simplifié -->
-  <g transform="translate(3.5 4.2)" fill="#280068">
-    <path d="M6.2 0a4.8 4.8 0 1 0 0 9.6
-             4.6 4.6 0 0 0 3.9-2.1L8.2 6.4
-             A2.5 2.5 0 1 1 8.2 3.2L10.1 2
-             A4.6 4.6 0 0 0 6.2 0Z"
-          transform="translate(0 -0.1) scale(.95)"/>
-    <path d="M10.4 2.4h5.1v1h-5.1z
-             M10 4.8h5.1v1H10z"
-          fill="#280068"/>
-    <path d="M11.7 1.5h1l-.6 5.4h-1z
-             M14 1.5h1l-.6 5.4h-1z"
-          fill="#280068"/>
+  <g transform="translate(3.5, 3) scale(0.1)" stroke-linecap="round" stroke-linejoin="round">
   </g>
 
-  <text x="33" y="10"
-        font-size="12"
-        font-family="Verdana, Geneva, sans-serif"
-        fill="#fff"
-        text-anchor="middle"
-        dominant-baseline="middle">C#</text>
+  <text x="33" y="10" font-size="12" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" fill="#fff" text-anchor="middle" dominant-baseline="middle">C#</text>
 </svg>
