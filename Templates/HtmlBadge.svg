@@ -20,5 +20,5 @@
       <polygon points="15.989 13.407 15.989 16.498 19.795 16.498 19.437 20.507 15.989 21.437 15.989 24.653 22.326 22.896 22.372 22.374 23.098 14.237 23.174 13.407 22.341 13.407 15.989 13.407" style="fill:#fff"></polygon>
       <polygon points="15.989 7.151 15.989 9.071 15.989 10.235 15.989 10.242 23.445 10.242 23.445 10.242 23.455 10.242 23.517 9.548 23.658 7.981 23.732 7.151 15.989 7.151" style="fill:#fff"></polygon>
   </g>
-  <text x="42" y="10" font-size="12" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" fill="#fff" text-anchor="middle" dominant-baseline="middle">HTML</text>
+  <text x="42" y="10" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" fill="#fff" text-anchor="middle" dominant-baseline="middle">HTML</text>
 </svg>
