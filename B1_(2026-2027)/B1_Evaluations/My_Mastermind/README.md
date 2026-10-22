@@ -115,6 +115,7 @@
 >  <img src="MakeFileBadge.svg" alt="Makefile Badge" width="250" height="50" />
 > </a>
 > <br>
+> <br>
 > 
 > First, I created a **Makefile** to **compile the project cleanly** using **gcc** along with strict **warning flags** (**-Wall -Wextra -Werror**). This ensures the **code compiles without warnings** or **undetected bugs** before creating the final **"my_mastermind executable"**.
 > <br>
@@ -237,6 +238,12 @@ void evaluate_guess(const char *secret, const char *guess, int *well_placed, int
 
 > ---
 >
+> <a href="" target="_blank" rel="noopener">
+>  <img src="CBadge.svg" alt="C Badge" width="250" height="50" />
+> </a>
+> <br>
+> <br>
+> 
 > Finally, I implemented the core game logic in **pure C**, focusing on **modularity**, **robust memory management**, and efficient **input validation**.
 >
 > ---
@@ -528,7 +535,20 @@ int main(int argc, char **argv) {
 > ---
 >
 > #### Prerequisites:
-> **Make sure** you have **"GCC compiler"** and **"Make" installed** on your **system**.
+> **Make sure** you have **installed** on your **system**:
+> 
+> <a href="" target="_blank" rel="noopener">
+>  <img src="GccBadge.svg" alt="GCC Badge" width="80" height="50" /> 
+> </a> 
+> 
+> and
+>
+> <a href="" target="_blank" rel="noopener">
+>  <img src="MakeFileBadge.svg" alt="Makefile Badge" width="150" height="50" /> 
+> </a> 
+> 
+> <br>
+> <br>
 > 
 > To **compile the project**, run the **terminal command**:
 > * **" make "** .
