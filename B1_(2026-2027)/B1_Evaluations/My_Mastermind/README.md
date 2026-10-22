@@ -4,6 +4,22 @@
 
 <br />
 
+<a href="" target="_blank" rel="noopener">
+  <img src="MakeFileBadge.svg" alt="Makefile Badge" width="250" height="50" />
+</a>
+
+<a href="" target="_blank" rel="noopener">
+  <img src="HeaderCBadge.svg" alt="Header C Badge" width="250" height="50" />
+</a>
+
+<a href="" target="_blank" rel="noopener">
+  <img src="CBadge.svg" alt="Language C Badge" width="250" height="50" />
+</a>
+
+
+
+<br />
+
 <div align="center">
 
 # My Mastermind
