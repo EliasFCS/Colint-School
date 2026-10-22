@@ -202,6 +202,6 @@ Code
 <br />
 <br />
 
-<img src="License.svg" alt="License" width="450" height="54" />
+<img src="LicenseBadge.svg" alt="License" width="410" height="40" />
 
 </p>
