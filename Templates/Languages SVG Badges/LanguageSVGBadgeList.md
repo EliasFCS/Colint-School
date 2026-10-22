@@ -339,7 +339,11 @@
 <br />
 <br />
 
+<div align="center">
+
 <h2 id="Libraries/Frameworks">Libraries/Frameworks</h2>
+
+</div>
 
 <br />
 <br />
