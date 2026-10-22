@@ -169,7 +169,12 @@ re: fclean all
 <br />
 <br />
 
-> ### Header File (`header.h`)
+> <a href="" target="_blank" rel="noopener">
+>  <img src="HeaderCBadge.svg" alt="Header C Badge" width="150" height="50" />
+> </a>
+> <br>
+> <br>
+> 
 > Next, I created a **custom header** file (**header.h**) to keep the codebase organized. It includes essential standard libraries (**<stdio.h>**, **<stdlib.h>**, **<unistd.h>**, and **<time.h>**) and centralizes **key game parameters** such as **CODE_SIZE**, **DEFAULT_ATTEMPTS**, and **VALID_PIECES**. It also declares prototypes for utility **string functions** (**my_strlen**, **my_strcmp**, **my_atoi**) and **core game logic functions** (**is_valid_code**, **generate_random_code**, **evaluate_guess**). By **including this header** in **source files**, the **implementation code** remains **clean** and **focused** strictly on the **game's execution logic**.
 > <br>
 >
