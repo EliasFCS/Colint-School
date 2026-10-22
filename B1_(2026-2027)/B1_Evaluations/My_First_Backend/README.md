@@ -343,14 +343,3 @@ app.listen(port, () => {
 <a href="https://github.com/EliasFCS" target="_blank" rel="noopener">
   <img src="CreditBadge.svg" alt="EliasFCS Badge" width="450" height="54" />
 </a>
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-<img src="License.svg" alt="License" width="450" height="54" />
-
-</p>
