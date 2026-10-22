@@ -160,6 +160,29 @@
 <div align="center">
 
 <a href="" target="_blank" rel="noopener">
+  <img src="HeaderCBadge.svg" alt="Header C Badge" width="250" height="50" />
+</a>
+
+</div>
+
+<br>
+
+``` MARKDOWN
+<a href="" target="_blank" rel="noopener">
+  <img src="HeaderCBadge.svg" alt="Header C Badge" width="250" height="50" />
+</a>
+```
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div align="center">
+
+<a href="" target="_blank" rel="noopener">
   <img src="ElixirBadge.svg" alt="Elixir Badge" width="250" height="40" />
 </a>
 
