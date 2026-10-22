@@ -1,7 +1,30 @@
 <p align="center">
-<img src="./ReadmeRessource2.svg" alt= "Banner" width="800" height="200" />
+<img src="./ReadmeRessource2.svg" alt= "Banner" width="100%" height="auto" />
 </p>
 
+<br />
+
+<div align="center">
+
+<a href="" target="_blank" rel="noopener">
+  <img src="JavaScriptBadge.svg" alt="JavaScript Badge" width="250" height="50" />
+</a>
+
+<a href="" target="_blank" rel="noopener">
+  <img src="NodejsBadge.svg" alt="Node.js Badge" width="270" height="55" />
+</a>
+
+<a href="" target="_blank" rel="noopener">
+  <img src="ExpressBadge.svg" alt="Express.js Badge" width="270" height="55" />
+</a>
+
+</div>
+
+<br />
+<br />
+<br />
+<br />
+<br />
 <br />
 
 <div align="center">
