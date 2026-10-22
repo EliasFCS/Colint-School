@@ -57,6 +57,9 @@
 <br />
 <br />
 <br />
+<br />
+<br />
+<br />
 
 
 <div align="center">
@@ -388,6 +391,9 @@
 <br />
 <br />
 <br />
+<br />
+<br />
+<br />
 
 <div align="center">
 
@@ -460,6 +466,8 @@
 
 <h2 id="more-information">More Information</h2>
 
+<br />
+<br />
 <br />
 
 </div>
