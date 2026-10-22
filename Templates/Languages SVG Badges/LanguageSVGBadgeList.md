@@ -1,0 +1,284 @@
+<br />
+
+<div align="center">
+
+# Programming Language SVG Badge List
+
+<br />
+<br />
+<br />
+
+## Summary
+
+<br />
+
+<h3>
+  <a href="#Programming-Languages" style="text-decoration: none;">
+    <kbd style="font-size: 0.9em; padding: 0.3em 0.6em; font-weight: bold;">Programming Languages</kbd>
+  </a>
+</h3>
+
+
+<br />
+
+<h3>
+  <a href="#Libraries/Frameworks" style="text-decoration: none;">
+    <kbd style="font-size: 0.9em; padding: 0.3em 0.6em; font-weight: bold;">Libraries/Frameworks</kbd>
+  </a>
+</h3>
+
+<br />
+<br />
+
+> Clickable Buttons !
+
+<br />
+<br />
+
+
+
+<h2 id="Programming-Languages">Programming Languages</h2>
+
+<br />
+<br />
+<br />
+
+<a href="" target="_blank" rel="noopener">
+  <img src="ArduinoBadge.svg" alt="Arduino Badge" width="270" height="55" />
+</a>
+
+<br>
+
+``` MARKDOWN
+<a href="" target="_blank" rel="noopener">
+  <img src="ArduinoBadge.svg" alt="Arduino Badge" width="270" height="55" />
+</a>
+```
+<br>
+<br>
+<br>
+
+<a href="" target="_blank" rel="noopener">
+  <img src="CsharpBadge.svg" alt="Csharp Badge" width="250" height="50" />
+</a>
+
+<br>
+
+``` MARKDOWN
+<a href="" target="_blank" rel="noopener">
+  <img src="CsharpBadge.svg" alt="Csharp Badge" width="250" height="50" />
+</a>
+```
+
+<br>
+<br>
+<br>
+
+<a href="" target="_blank" rel="noopener">
+  <img src="CplusBadge.svg" alt="Cplus Badge" width="250" height="50" />
+</a>
+
+<br>
+
+``` MARKDOWN
+<a href="" target="_blank" rel="noopener">
+  <img src="CplusBadge.svg" alt="Cplus Badge" width="250" height="50" />
+</a>
+```
+
+<br>
+<br>
+<br>
+
+<a href="" target="_blank" rel="noopener">
+  <img src="CBadge.svg" alt="Language C Badge" width="250" height="50" />
+</a>
+
+<br>
+
+``` MARKDOWN
+<a href="" target="_blank" rel="noopener">
+  <img src="CBadge.svg" alt="Language C Badge" width="250" height="50" />
+</a>
+```
+
+<br>
+<br>
+<br>
+
+<a href="" target="_blank" rel="noopener">
+  <img src="ElixirBadge.svg" alt="Elixir Badge" width="250" height="40" />
+</a>
+
+<br>
+
+``` MARKDOWN
+<a href="" target="_blank" rel="noopener">
+  <img src="ElixirBadge.svg" alt="Elixir Badge" width="250" height="40" />
+</a>
+```
+
+<br>
+<br>
+<br>
+
+<a href="" target="_blank" rel="noopener">
+  <img src="HtmlBadge.svg" alt="Html Badge" width="250" height="50" />
+</a>
+
+<br>
+
+``` MARKDOWN
+<a href="" target="_blank" rel="noopener">
+  <img src="HtmlBadge.svg" alt="Html Badge" width="250" height="50" />
+</a>
+```
+
+<br>
+<br>
+<br>
+
+<a href="" target="_blank" rel="noopener">
+  <img src="JavaBadge.svg" alt="Java Badge" width="250" height="50" />
+</a>
+
+<br>
+
+``` MARKDOWN
+<a href="" target="_blank" rel="noopener">
+  <img src="JavaBadge.svg" alt="Java Badge" width="250" height="50" />
+</a>
+```
+
+<br>
+<br>
+<br>
+
+<a href="" target="_blank" rel="noopener">
+  <img src="JavaScriptBadge.svg" alt="JavaScript Badge" width="250" height="50" />
+</a>
+
+<br>
+
+``` MARKDOWN
+<a href="" target="_blank" rel="noopener">
+  <img src="JavaScriptBadge.svg" alt="JavaScript Badge" width="250" height="50" />
+</a>
+```
+
+<br>
+<br>
+<br>
+
+<a href="" target="_blank" rel="noopener">
+  <img src="MakeFileBadge.svg" alt="Makefile Badge" width="250" height="50" />
+</a>
+
+<br>
+
+``` MARKDOWN
+<a href="" target="_blank" rel="noopener">
+  <img src="MakeFileBadge.svg" alt="Makefile Badge" width="250" height="50" />
+</a>
+```
+
+<br>
+<br>
+<br>
+
+<a href="" target="_blank" rel="noopener">
+  <img src="MarkdownBadge.svg" alt="MARKDOWN Badge" width="250" height="50" />
+</a>
+
+<br>
+
+``` MARKDOWN
+<a href="" target="_blank" rel="noopener">
+  <img src="MarkdownBadge.svg" alt="MARKDOWN Badge" width="250" height="50" />
+</a>
+```
+
+<br>
+<br>
+<br>
+
+<a href="" target="_blank" rel="noopener">
+  <img src="PhpBadge.svg" alt="PHP Badge" width="250" height="50" />
+</a>
+
+<br>
+
+``` MARKDOWN
+<a href="" target="_blank" rel="noopener">
+  <img src="PhpBadge.svg" alt="PHP Badge" width="250" height="50" />
+</a>
+```
+
+<br>
+<br>
+<br>
+
+<a href="" target="_blank" rel="noopener">
+  <img src="PythonBadge.svg" alt="Python Badge" width="250" height="50" />
+</a>
+
+<br>
+
+``` MARKDOWN
+<a href="" target="_blank" rel="noopener">
+  <img src="PythonBadge.svg" alt="Python Badge" width="250" height="50" />
+</a>
+```
+
+<br>
+<br>
+<br>
+
+<a href="" target="_blank" rel="noopener">
+  <img src="RubyBadge.svg" alt="Ruby Badge" width="250" height="50" />
+</a>
+
+<br>
+
+``` MARKDOWN
+<a href="" target="_blank" rel="noopener">
+  <img src="RubyBadge.svg" alt="Ruby Badge" width="250" height="50" />
+</a>
+```
+
+<br>
+<br>
+<br>
+
+<a href="" target="_blank" rel="noopener">
+  <img src="RustBadge.svg" alt="Rust Badge" width="250" height="50" />
+</a>
+
+<br>
+
+``` MARKDOWN
+<a href="" target="_blank" rel="noopener">
+  <img src="RustBadge.svg" alt="Rust Badge" width="250" height="50" />
+</a>
+```
+
+
+<br />
+<br />
+<br />
+
+<h2 id="Libraries/Frameworks">Libraries/Frameworks</h2>
+
+
+<br />
+
+> "Text".
+```Language type
+Code
+```
+
+<br />
+<br />
+
+
+</div>
