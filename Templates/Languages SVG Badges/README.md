@@ -183,7 +183,7 @@
 <div align="center">
 
 <a href="" target="_blank" rel="noopener">
-  <img src="HtmlBadge.svg" alt="Html Badge" width="250" height="50" />
+  <img src="HtmlBadge.svg" alt="HTML Badge" width="250" height="50" />
 </a>
 
 </div>
@@ -192,7 +192,30 @@
 
 ``` MARKDOWN
 <a href="" target="_blank" rel="noopener">
-  <img src="HtmlBadge.svg" alt="Html Badge" width="250" height="50" />
+  <img src="HtmlBadge.svg" alt="HTML Badge" width="250" height="50" />
+</a>
+```
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div align="center">
+
+<a href="" target="_blank" rel="noopener">
+  <img src="CssBadge.svg" alt="CSS Badge" width="250" height="50" />
+</a>
+
+</div>
+
+<br>
+
+``` MARKDOWN
+<a href="" target="_blank" rel="noopener">
+  <img src="CssBadge.svg" alt="CSS Badge" width="250" height="50" />
 </a>
 ```
 
