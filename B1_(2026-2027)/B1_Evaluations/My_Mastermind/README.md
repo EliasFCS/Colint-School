@@ -111,7 +111,11 @@
 
 <br />
 
-> ### Makefile
+> <a href="" target="_blank" rel="noopener">
+>  <img src="MakeFileBadge.svg" alt="Makefile Badge" width="250" height="50" />
+> </a>
+> <br>
+> 
 > First, I created a **Makefile** to **compile the project cleanly** using **gcc** along with strict **warning flags** (**-Wall -Wextra -Werror**). This ensures the **code compiles without warnings** or **undetected bugs** before creating the final **"my_mastermind executable"**.
 > <br>
 >
