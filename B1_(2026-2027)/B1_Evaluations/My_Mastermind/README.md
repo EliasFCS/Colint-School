@@ -564,6 +564,8 @@ int main(int argc, char **argv) {
 >
 > #### Prerequisites:
 > **Make sure** you have **installed** on your **system**:
+>
+> <br>
 > 
 > <a href="" target="_blank" rel="noopener">
 >  <img src="GccBadge.svg" alt="GCC Badge" width="80" height="50" /> 
