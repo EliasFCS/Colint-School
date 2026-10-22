@@ -24,7 +24,7 @@
 <br>
 
 
-<a href="" target="_blank" rel="noopener">
+<a href="./Colint-School/Templates/Languages SVG Badges" target="_blank" rel="noopener">
   <img src="ProgrammingLanguageButton.svg" alt="ProgrammingLanguageSection" width="450" height="54" />
 </a>
 
