@@ -539,10 +539,8 @@ int main(int argc, char **argv) {
 > 
 > <a href="" target="_blank" rel="noopener">
 >  <img src="GccBadge.svg" alt="GCC Badge" width="80" height="50" /> 
-> </a> 
-> 
-> and
->
+> </a>
+>  and
 > <a href="" target="_blank" rel="noopener">
 >  <img src="MakeFileBadge.svg" alt="Makefile Badge" width="150" height="50" /> 
 > </a> 
