@@ -4,7 +4,7 @@
 
 <br />
 
-<div style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 10px; flex-wrap: nowrap; overflow-x: auto; padding: 5px;">
+<div align="center">
 
 <a href="https://docs.getbifrost.ai/deployment-guides/how-to/install-make" target="_blank" rel="noopener">
   <img src="MakeFileBadge.svg" alt="Makefile Badge" width="250" height="50" />
