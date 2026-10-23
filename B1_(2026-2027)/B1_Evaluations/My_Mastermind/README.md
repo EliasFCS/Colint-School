@@ -608,8 +608,8 @@ int main(int argc, char **argv) {
 ```mermaid
 mindmap
   root((my_mastermind.c "Principal file"))
-    header.h
-    Makefile
+    ))header.h((
+    {{Makefile}}
 ```
 
 <br />
