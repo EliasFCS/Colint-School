@@ -351,11 +351,11 @@ app.listen(port, () => {
 > Make sure you have installed**:
 >
 > <a href="https://nodejs.org" target="_blank" rel="noopener">
->  <img src="NodejsBadge.svg" alt="Node.js Badge" width="250" height="55" />
+>  <img src="NodejsBadge.svg" alt="Node.js Badge" width="250" height="35" />
 > </a>
 > and
 > <a href="https://expressjs.com" target="_blank" rel="noopener">
->  <img src="ExpressBadge.svg" alt="Express.js Badge" width="250" height="55" />
+>  <img src="ExpressBadge.svg" alt="Express.js Badge" width="250" height="35" />
 > </a>
 >
 > <br>
