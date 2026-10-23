@@ -4,7 +4,7 @@
 
 <br />
 
-<div style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 10px; flex-wrap: nowrap; overflow-x: auto; padding: 5px;">
+<div align="center">
 
 <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank" rel="noopener">
   <img src="JavaScriptBadge.svg" alt="JavaScript Badge" width="auto" height="55" />
