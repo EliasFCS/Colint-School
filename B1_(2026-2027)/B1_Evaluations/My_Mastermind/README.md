@@ -581,7 +581,7 @@ int main(int argc, char **argv) {
 > <br>
 > 
 > To **compile the project**, run the **terminal command**:
-> * **" make "** .
+> * **" make "** instead of ~~" gcc my_mastermind.c "~~.
 > 
 > To **execute** the **game**:
 > * **" ./my_mastermind "** .
