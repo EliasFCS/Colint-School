@@ -6,7 +6,7 @@
 
 <div align="center">
 
-<a href="" target="_blank" rel="noopener">
+<a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank" rel="noopener">
   <img src="JavaScriptBadge.svg" alt="JavaScript Badge" width="250" height="50" />
 </a>
 
