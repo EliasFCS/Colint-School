@@ -11,11 +11,11 @@
 </a>
 
 <a href="https://nodejs.org" target="_blank" rel="noopener">
-  <img src="NodejsBadge.svg" alt="Node.js Badge" width="270" height="55" />
+  <img src="NodejsBadge.svg" alt="Node.js Badge" width="250" height="55" />
 </a>
 
 <a href="https://expressjs.com" target="_blank" rel="noopener">
-  <img src="ExpressBadge.svg" alt="Express.js Badge" width="270" height="55" />
+  <img src="ExpressBadge.svg" alt="Express.js Badge" width="210" height="55" />
 </a>
 
 </div>
