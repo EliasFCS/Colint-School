@@ -609,7 +609,7 @@ int main(int argc, char **argv) {
 
 ```mermaid
 flowchart BT
-    Root((my_mastermind.c Principal file))
+    Root((my_mastermind.c Main File))
     Root <--> B1_1[Makefile]
     Root <--> B1_2(header.h)
 ```
