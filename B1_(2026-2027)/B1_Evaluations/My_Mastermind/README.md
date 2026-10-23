@@ -608,10 +608,9 @@ int main(int argc, char **argv) {
 <div align="center">
 
 ```mermaid
-mindmap
-  root((my_mastermind.c "Principal file"))
-    ))header.h((
-    {{Makefile}}
+flowchart LR
+    Root((my_mastermind.c Principal file)) <--> B1_1(header.h)
+    Root <--> B1_2[Makefile]
 ```
 
 </div>
