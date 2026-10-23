@@ -610,7 +610,7 @@ int main(int argc, char **argv) {
 ```mermaid
 flowchart BT
     Root((my_mastermind.c 'Main File'))
-    Root <--> B1_1[Makefile]
+    Root <--> B1_1(Makefile)
     Root <--> B1_2(header.h)
 
     style B1_1 fill:#f5533b,stroke:#F5F5F0,stroke-width:2px,color:#fff
