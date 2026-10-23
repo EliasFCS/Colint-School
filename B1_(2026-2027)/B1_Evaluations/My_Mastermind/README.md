@@ -603,6 +603,16 @@ int main(int argc, char **argv) {
 <br />
 <br />
 
+```mermaid
+mindmap
+  root((my_mastermind.c "Principal file"))
+    header.h
+    Makefile
+```
+
+<br />
+<br />
+
 <div align="center">
 
 <h2 id="credits">Credits</h2>
