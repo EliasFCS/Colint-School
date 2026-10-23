@@ -608,9 +608,10 @@ int main(int argc, char **argv) {
 <div align="center">
 
 ```mermaid
-flowchart LR
-    Root((my_mastermind.c Principal file)) <--> B1_1(header.h)
-    Root <--> B1_2[Makefile]
+flowchart BT
+    Root((my_mastermind.c Principal file))
+    Root <--> B1_1[Makefile]
+    Root <--> B1_2(header.h)
 ```
 
 </div>
