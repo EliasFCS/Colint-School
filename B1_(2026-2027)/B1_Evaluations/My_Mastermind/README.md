@@ -593,6 +593,15 @@ int main(int argc, char **argv) {
 <br />
 <br />
 
+| Files | Defintion | 
+|:---:|:---|
+|**Makefile**| **Compile my_mastermind.c** and create a **"my_mastermind executor"**.|
+|**header.h**|Stock **variables, functions and libraries** which will be **included in my_mastermind.c** with **"include header.h"**.|
+|**Mastermind.c**|**Game's Core**.|
+
+<br />
+<br />
+
 <div align="center">
 
 <h2 id="credits">Credits</h2>
