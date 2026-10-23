@@ -612,6 +612,10 @@ flowchart BT
     Root((my_mastermind.c 'Main File'))
     Root <--> B1_1[Makefile]
     Root <--> B1_2(header.h)
+
+    style B1_1 fill:#f5533b,stroke:#f66,stroke-width:2px,color:#fff
+    style B1_2 fill:#a770c9,stroke:#f66,stroke-width:2px,color:#fff
+    style Root fill:#283593,stroke:#f66,stroke-width:2px,color:#fff
 ```
 
 *"Project's Composition"*
