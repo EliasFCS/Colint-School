@@ -140,6 +140,13 @@
 
 <br />
 
+> <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank" rel="noopener">
+>  <img src="JavaScriptBadge.svg" alt="JavaScript Badge" width="250" height="50" />
+></a>
+>
+> <br>
+> <br>
+>
 > The application is coded in **"JavaScript"** a script coding language used for **web development**. 
 > The program hosts a local server with the framework **"express"**.
 > We include the framework with **"require('express')"** and **"app = express();"**.
