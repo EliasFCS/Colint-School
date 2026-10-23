@@ -7,15 +7,15 @@
 <div align="center">
 
 <a href="https://docs.getbifrost.ai/deployment-guides/how-to/install-make" target="_blank" rel="noopener">
-  <img src="MakeFileBadge.svg" alt="Makefile Badge" width="250" height="50" />
+  <img src="MakeFileBadge.svg" alt="Makefile Badge" width="250" height="45" />
 </a>
 
 <a href="https://koor.fr/C/Tutorial/Qualificateurs.wp" target="_blank" rel="noopener">
-  <img src="HeaderCBadge.svg" alt="Header C Badge" width="250" height="43.5" />
+  <img src="HeaderCBadge.svg" alt="Header C Badge" width="250" height="45" />
 </a>
 
 <a href="https://koor.fr/C/Tutorial/Index.wp" target="_blank" rel="noopener">
-  <img src="CBadge.svg" alt="Language C Badge" width="250" height="50" />
+  <img src="CBadge.svg" alt="Language C Badge" width="250" height="45" />
 </a>
 
 </div>
