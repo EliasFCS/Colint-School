@@ -592,6 +592,7 @@ int main(int argc, char **argv) {
 
 <br />
 <br />
+<br />
 
 | File | Defintion | 
 |:---:|:---|
@@ -600,6 +601,7 @@ int main(int argc, char **argv) {
 |**header.h**|Stock **variables, functions and libraries** which will be **included in my_mastermind.c** with **"include header.h"**.|
 |**my_mastermind.c**|**Game's Core**.|
 
+<br />
 <br />
 <br />
 
