@@ -10,7 +10,7 @@
   <img src="JavaScriptBadge.svg" alt="JavaScript Badge" width="250" height="50" />
 </a>
 
-<a href="" target="_blank" rel="noopener">
+<a href="https://nodejs.org" target="_blank" rel="noopener">
   <img src="NodejsBadge.svg" alt="Node.js Badge" width="270" height="55" />
 </a>
 
