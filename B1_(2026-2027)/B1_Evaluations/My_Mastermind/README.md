@@ -567,7 +567,7 @@ int main(int argc, char **argv) {
 >
 > <br>
 > 
-> <a href="" target="_blank" rel="noopener">
+> <a href="https://code.visualstudio.com/docs/cpp/config-mingw" target="_blank" rel="noopener">
 >  <img src="GccBadge.svg" alt="GCC Badge" width="80" height="50" /> 
 > </a>
 >  and
