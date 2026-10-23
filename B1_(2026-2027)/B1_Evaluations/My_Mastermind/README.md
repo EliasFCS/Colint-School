@@ -605,12 +605,16 @@ int main(int argc, char **argv) {
 <br />
 <br />
 
+<div align="center">
+
 ```mermaid
 mindmap
   root((my_mastermind.c "Principal file"))
     ))header.h((
     {{Makefile}}
 ```
+
+</div>
 
 <br />
 <br />
