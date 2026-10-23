@@ -7,7 +7,7 @@
 <div align="center">
 
 <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank" rel="noopener">
-  <img src="JavaScriptBadge.svg" alt="JavaScript Badge" width="250" height="50" />
+  <img src="JavaScriptBadge.svg" alt="JavaScript Badge" width="290" height="55" />
 </a>
 
 <a href="https://nodejs.org" target="_blank" rel="noopener">
