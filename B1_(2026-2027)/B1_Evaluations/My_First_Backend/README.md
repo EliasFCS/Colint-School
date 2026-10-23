@@ -7,15 +7,15 @@
 <div align="center">
 
 <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank" rel="noopener">
-  <img src="JavaScriptBadge.svg" alt="JavaScript Badge" width="270" height="50" />
+  <img src="JavaScriptBadge.svg" alt="JavaScript Badge" width="250" height="50" />
 </a>
 
 <a href="https://nodejs.org" target="_blank" rel="noopener">
-  <img src="NodejsBadge.svg" alt="Node.js Badge" width="270" height="50" />
+  <img src="NodejsBadge.svg" alt="Node.js Badge" width="270" height="55" />
 </a>
 
 <a href="https://expressjs.com" target="_blank" rel="noopener">
-  <img src="ExpressBadge.svg" alt="Express.js Badge" width="270" height="50" />
+  <img src="ExpressBadge.svg" alt="Express.js Badge" width="270" height="55" />
 </a>
 
 </div>
