@@ -613,6 +613,7 @@ flowchart BT
     Root <--> B1_1[Makefile]
     Root <--> B1_2(header.h)
 ```
+*"Directory composition"*
 
 </div>
 
