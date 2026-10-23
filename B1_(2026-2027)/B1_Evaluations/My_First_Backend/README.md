@@ -348,7 +348,18 @@ app.listen(port, () => {
 > ---
 > #### Prerequisites:
 >
-> Make sure you have **[Node.js](https://nodejs.org) installed**.
+> Make sure you have installed**:
+>
+> <a href="https://nodejs.org" target="_blank" rel="noopener">
+>  <img src="NodejsBadge.svg" alt="Node.js Badge" width="auto" height="35" />
+> </a>
+> and
+> <a href="https://expressjs.com" target="_blank" rel="noopener">
+>  <img src="ExpressBadge.svg" alt="Express.js Badge" width="auto" height="40" />
+> </a>
+>
+> <br>
+> <br>
 > 
 > If the **framework express** is **not installed** on the **case**, do the **terminal command:**
 > * **" npm install express "**.
