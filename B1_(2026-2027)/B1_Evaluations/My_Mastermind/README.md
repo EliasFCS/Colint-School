@@ -6,7 +6,7 @@
 
 <div align="center">
 
-<a href="" target="_blank" rel="noopener">
+<a href="https://docs.getbifrost.ai/deployment-guides/how-to/install-make" target="_blank" rel="noopener">
   <img src="MakeFileBadge.svg" alt="Makefile Badge" width="250" height="50" />
 </a>
 
@@ -134,7 +134,7 @@
 
 <br />
 
-> <a href="" target="_blank" rel="noopener">
+> <a href="https://docs.getbifrost.ai/deployment-guides/how-to/install-make" target="_blank" rel="noopener">
 >  <img src="MakeFileBadge.svg" alt="Makefile Badge" width="250" height="50" />
 > </a>
 > <br>
@@ -192,7 +192,7 @@ re: fclean all
 <br />
 <br />
 
-> <a href="" target="_blank" rel="noopener">
+> <a href="https://koor.fr/C/Tutorial/Qualificateurs.wp" target="_blank" rel="noopener">
 >  <img src="HeaderCBadge.svg" alt="Header C Badge" width="150" height="50" />
 > </a>
 > <br>
@@ -266,7 +266,7 @@ void evaluate_guess(const char *secret, const char *guess, int *well_placed, int
 
 > ---
 >
-> <a href="" target="_blank" rel="noopener">
+> <a href="https://koor.fr/C/Tutorial/Index.wp" target="_blank" rel="noopener">
 >  <img src="CBadge.svg" alt="C Badge" width="250" height="50" />
 > </a>
 > <br>
@@ -571,7 +571,7 @@ int main(int argc, char **argv) {
 >  <img src="GccBadge.svg" alt="GCC Badge" width="80" height="50" /> 
 > </a>
 >  and
-> <a href="" target="_blank" rel="noopener">
+> <a href="https://docs.getbifrost.ai/deployment-guides/how-to/install-make" target="_blank" rel="noopener">
 >  <img src="MakeFileBadge.svg" alt="Makefile Badge" width="150" height="50" /> 
 > </a> 
 > 
