@@ -353,11 +353,11 @@ app.listen(port, () => {
 > <br>
 > 
 > <a href="https://nodejs.org" target="_blank" rel="noopener">
->  <img src="NodejsBadge.svg" alt="Node.js Badge" width="150" height="50" />
+>  <img src="NodejsBadge.svg" alt="Node.js Badge" width="120" height="50" />
 > </a>
 > and
 > <a href="https://expressjs.com" target="_blank" rel="noopener">
->  <img src="ExpressBadge.svg" alt="Express.js Badge" width="150" height="50" />
+>  <img src="ExpressBadge.svg" alt="Express.js Badge" width="120" height="50" />
 > </a>
 >
 > <br>
