@@ -607,12 +607,17 @@ int main(int argc, char **argv) {
 
 <div align="center">
 
+<div style="border: 2px solid red;">
+
 ```mermaid
 flowchart BT
     Root((my_mastermind.c Principal file))
     Root <--> B1_1[Makefile]
     Root <--> B1_2(header.h)
 ```
+
+</div>
+
 *"Project's Composition"*
 
 </div>
