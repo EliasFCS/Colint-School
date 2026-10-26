@@ -285,7 +285,7 @@ int read_guess(char *buffer);
 >
 > <br />
 >
-> #### " my_mastermind.c " : 
+> ### " my_mastermind.c " : 
 > 
 > This file contains the **main function** of the **Mastermind game**. It manages the game settings, checks the **secret code**, and handles the player's attempts.
 >
@@ -374,7 +374,7 @@ return 0;
 >
 > <br />
 >
-> #### " utils.c " : 
+> ### " utils.c " : 
 >
 > This file contains **three utility functions** that handle **basic string operations**.
 >
@@ -434,7 +434,7 @@ return res;
 >
 > <br />
 >
-> #### " code.c " : 
+> ### " code.c " : 
 >
 > This file contains two functions responsible for validating and generating the secret code.
 >
@@ -513,7 +513,7 @@ return code;
 >
 > <br />
 >
-> #### " game.c " :
+> ### " game.c " :
 >  
 >This **file contains two functions** that handle the player's input and **evaluate their guesses**.
 >
