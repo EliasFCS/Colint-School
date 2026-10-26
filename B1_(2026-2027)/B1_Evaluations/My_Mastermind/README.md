@@ -286,8 +286,16 @@ int read_guess(char *buffer);
 > <br />
 >
 > #### " my_mastermind.c " : 
->
 > 
+> This file contains the **main function** of the **Mastermind game**. It manages the game settings, checks the **secret code**, and handles the player's attempts.
+>
+> First, the program reads the **command-line arguments**. The **`-c`** option allows the player to choose a **secret code**, while the **`-t`** option sets the **maximum number of attempts**. **If no secret code is provided, the program generates a random one**. It also checks that the number of **attempts is positive and that the secret code is valid**.
+>
+> **The program then displays a welcome message and starts the game loop**. At each round, it asks the player to enter a guess. The function **`read_guess()`** reads the **input**, and **`is_valid_code()`** checks whether the guess is **valid**. If the input is **invalid**, the program displays an **error message** and asks the **player to try again**.
+>
+> If the **guess is valid**, the function **`evaluate_guess()`** compares it with the **secret code** and calculates the number of **well-placed** and **misplaced pieces**. If all **four digits** are **correct** and in the right positions, the player wins, and the program displays a **congratulation message**.
+>
+> Otherwise, the program **displays the results** and continues to the **next round** until the **maximum number** of **attempts is reached**. Finally, the program **ends**.
 
 ```C
 #include "header.h"
@@ -368,7 +376,14 @@ return 0;
 >
 > #### " utils.c " : 
 >
-> 
+> This file contains **three utility functions** that handle **basic string operations**.
+>
+>The **`my_strlen()`** function calculates the **length of a string** by counting its characters until it reaches the **`null terminator ('\0')`**. If the string is **`NULL`**, it **returns `0`**.
+>
+> The **`my_strcmp()`** function compares **two strings character by character**. It stops when the characters are different or when one of the strings reaches the end. It **returns `0`** if the strings are identical, a **negative value** if the **first string is smaller**, or a **positive value** if the **first string is greater**.
+>
+> The **`my_atoi()`** function converts a string containing **digits into an integer**. It **reads each digit and builds** the result by multiplying the **current value by `10`** and adding the next digit. It stops when it **encounters a character** that is **not a digit**.
+
 
 ```C
 #include "header.h"
@@ -420,6 +435,12 @@ return res;
 > <br />
 >
 > #### " code.c " : 
+>
+> This file contains two functions responsible for validating and generating the secret code.
+>
+>The **`is_valid_code()`** function checks whether a **code is valid**. It verifies that **the code is not NULL**, contains exactly **four characters**, uses only **digits from `0` to `8`**, and does not contain any **repeated digits**. If one of these conditions is not met, the function **returns `0`. Otherwise**, it **returns `1`**.
+>
+>The **`generate_random_code()`** function **generates a random secret code** containing **four unique digits** between **`0` and `8`**. It uses **`rand()`** to select digits and checks whether each digit has already been used before adding it to the code. Once four different digits have been selected, the function adds a **`null terminator ('\0')`** to mark the end of the **string and returns the generated code**.
 >
 > 
 
@@ -492,9 +513,13 @@ return code;
 >
 > <br />
 >
-> #### " game.c " : 
+> #### " game.c " :
+>  
+>This **file contains two functions** that handle the player's input and **evaluate their guesses**.
 >
-> 
+>The **`read_guess()`** function reads the player's **input one character** at a time using **`read()`**. It checks whether the player has entered **exactly four characters**. If the input is **too short or too long**, it is **considered invalid**. The function also handles **errors and detects when the player exits the input**. If the input is **valid in length**, it adds a **`null terminator ('\0')`** to mark the **end of the string**.
+>
+>The **`evaluate_guess()`** function compares the player's **guess with the secret code**. It first counts the **well-placed pieces**, which are **digits** that are correct and in the **right positions**. Then, it counts the **misplaced pieces**, which are **correct digits** in the **wrong positions**. Two arrays, **used_secret** and **used_guess**, keep track of the digits that have already been counted, preventing the same digit from being counted more than once. Finally, the function returns the results through the **`well_placed`** and **`misplaced pointers`**. 
 
 ```C
 #include "header.h"
