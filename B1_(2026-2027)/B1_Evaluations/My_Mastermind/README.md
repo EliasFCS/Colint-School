@@ -773,24 +773,23 @@ Maintainability: Using a shared header file for constants and function declarati
 <div align="center">
 
 ```mermaid
-flowchart BT
+flowchart TB
     Root((my_mastermind.out/exe 'executable'))
-    Root <--> B1_1(Makefile)
-    Root <--> B1_2(header.h)
-    Root <--> B1_3(my_mastermind.c)
-    Root <--> B1_4(utils.c)
-    Root <--> B1_5(code.c)
-    Root <--> B1_6(game.c)
-
+    B1_1(Makefile) --> Root
+    B1_2(header.h) --> Root
+    B1_3(my_mastermind.c) --> Root
+    B1_4(utils.c) --> Root
+    B1_5(code.c) --> Root
+    B1_6(game.c) --> Root
+    
 
     style B1_1 fill:#f5533b,stroke:#F5F5F0,stroke-width:2px,color:#fff
     style B1_2 fill:#a770c9,stroke:#F5F5F0,stroke-width:2px,color:#fff
-    style Root fill:#283593,stroke:#F5F5F0,stroke-width:2px,color:#fff
+    style Root fill:#232323,stroke:#F5F5F0,stroke-width:2px,color:#fff
     style B1_3 fill:#283593,stroke:#F5F5F0,stroke-width:2px,color:#fff
     style B1_4 fill:#283593,stroke:#F5F5F0,stroke-width:2px,color:#fff
     style B1_5 fill:#283593,stroke:#F5F5F0,stroke-width:2px,color:#fff
     style B1_6 fill:#283593,stroke:#F5F5F0,stroke-width:2px,color:#fff
-    
 ```
 
 *"Project's Composition"*
