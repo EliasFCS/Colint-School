@@ -378,7 +378,7 @@ app.listen(port, () => {
 
 | File | Defintion | 
 |:---:|:---|
-|**app.js**||
+|**app.js**|The **core** of the **app**, all the **project is concentrated in it**.|
 
 <br />
 <br />
@@ -388,7 +388,8 @@ app.listen(port, () => {
 
 ```mermaid
 flowchart TB
-    Root((app.js))
+    Root((app.js  
+    'Main File'))
     B1_1(node_modules 'Express.js') --> Root
     
 
