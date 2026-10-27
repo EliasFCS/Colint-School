@@ -393,7 +393,7 @@ flowchart TB
     B1_1(node_modules 'Express.js') --> Root
     
 
-    style B1_1 fill:#232323,stroke:#F5F5F0,stroke-width:2px,color:#539E43
+    style B1_1 fill:#232323,stroke:#F5F5F0,stroke-width:2px,color:#83F06A
     style Root fill:#FFFF00,stroke:#F5F5F0,stroke-width:2px,color:#232323
 ```
 
