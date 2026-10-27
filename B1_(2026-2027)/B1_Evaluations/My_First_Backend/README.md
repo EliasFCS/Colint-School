@@ -33,7 +33,7 @@
 
 <br />
 
-<img src="ReadmeRessource.jpg" alt="Frank Sinatra" width="200" align="center">
+<img src="ReadmeRessource.jpg" alt="Frank Sinatra" width="200" align="center" style="border: 4.5px solid #FFD700;" />
 
 <br/>
 
@@ -123,7 +123,7 @@
 
 <div align="center">
 
-<img src="ReadmeRessource1.jpg" alt="Logo JavaScript" width="200" align="center">
+<img src="ReadmeRessource1.jpg" alt="Logo JavaScript" width="200" align="center" style="border: 4.5px solid #FFD700;" />
 
 <br />
 
