@@ -374,6 +374,32 @@ app.listen(port, () => {
 
 <br />
 <br />
+<br />
+
+| File | Defintion | 
+|:---:|:---|
+|**app.js**||
+
+<br />
+<br />
+<br />
+
+<div align="center">
+
+```mermaid
+flowchart TB
+    Root((app.js))
+    B1_1(node_modules 'Express.js') --> Root
+    
+
+    style B1_1 fill:#232323,stroke:#F5F5F0,stroke-width:2px,color:#539E43
+    style Root fill:#FFFF00,stroke:#F5F5F0,stroke-width:2px,color:#232323
+```
+
+*"Project's Composition"*
+
+<br />
+<br />
 
 <div align="center">
 
