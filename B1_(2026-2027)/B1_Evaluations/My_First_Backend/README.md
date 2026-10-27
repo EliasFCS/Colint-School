@@ -47,7 +47,7 @@
 
 <div align="center">
 
-## Summary
+## {🗂️}\Summary
 
 <br />
 
@@ -103,7 +103,7 @@
 
 <div align="center">
 
-<h2 id="context">Context</h2>
+<h2 id="context">{📚}\Context</h2>
 
 </div>
 
@@ -134,7 +134,7 @@
 <br />
 
 
-<h2 id="guide">Guide</h2>
+<h2 id="guide">{📖}\Guide</h2>
 
 </div>
 
@@ -290,7 +290,7 @@ app.listen(port, () => {
 
 <div align="center">
 
-<h2 id="more-information">More Information</h2>
+<h2 id="more-information">{🗞️}\More Information</h2>
 
 <br />
 
@@ -339,7 +339,7 @@ app.listen(port, () => {
 
 <div align="center">
 
-<h2 id="download">Download</h2>
+<h2 id="download">{📥}\Download</h2>
 
 </div>
 
@@ -404,7 +404,7 @@ flowchart TB
 
 <div align="center">
 
-<h2 id="credits">Credits</h2>
+<h2 id="credits">{📌}\Credits</h2>
 
 </div>
 
