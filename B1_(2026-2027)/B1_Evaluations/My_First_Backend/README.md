@@ -293,6 +293,8 @@ app.listen(port, () => {
 
 <h2 id="more-information">{🗞️}\ More Information</h2>
 
+<em>Technical overview of the main functions and app logic.</em>
+
 <br />
 
 </div>

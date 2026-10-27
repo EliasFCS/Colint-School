@@ -623,9 +623,9 @@ while (i < CODE_SIZE) {
 >
 > | Function | Description | 
 > |:---:|:---|
-> |my_strlen()|Calculates the length of a null-terminated string.|
-> |my_strcmp()|Compares two strings character by character and returns the difference between the first pair of differing characters.|
->|my_atoi()|Converts a string containing numeric characters into an integer.|
+> |**`my_strlen()`**|Calculates the length of a **null-terminated string**.|
+> |**`my_strcmp()`**|Compares **two strings character by character** and **returns the difference between the first pair of differing characters**.|
+>|**`my_atoi()`**|Converts a **string containing numeric characters** into an **integer**.|
 >
 > <br>
 >
@@ -636,8 +636,8 @@ while (i < CODE_SIZE) {
 >
 >| Function | Description | 
 > |:---:|:---|
-> |is_valid_code()|Checks whether a code contains exactly four digits between '0' and '8', with no repeated digits.|
-> |generate_random_code()| Generates a four-digit secret code with unique digits selected from '0' to '8'.|
+> |**`is_valid_code()`**|Checks whether a code contains exactly **four** digits **between `0` and `8`**, with no repeated digits.|
+> |**`generate_random_code()`**| Generates a **four-digit secret code** with **unique digits** selected **from `0` to `8`**.|
 >
 >
 >The validation function helps ensure that the secret code follows the expected format before the game begins.
@@ -683,9 +683,9 @@ while (i < CODE_SIZE) {
 >
 > |Constant |Value |Purpose|
 > |:---:|:---:|:---|
-> |CODE_SIZE|4|Defines the length of the secret code.|
-> |DEFAULT_ATTEMPTS|10|Sets the default number of attempts.|
-> |VALID_PIECES|"012345678"|Defines the permitted digits.|
+> |**`CODE_SIZE`**|**`4`**|Defines the **length** of the **secret code**.|
+> |**`DEFAULT_ATTEMPTS`**|**`10`**|Sets the **default number** of **attempts**.|
+> |**`VALID_PIECES`**|**"`012345678`"**|Defines the **permitted digits**.|
 >
 >Centralizing these values improves readability and makes the code easier to maintain.
 >
@@ -705,15 +705,16 @@ Maintainability: Using a shared header file for constants and function declarati
 
 > [!NOTE]
 > The application accepts optional command-line flags:
-> * **-c [code] :** Sets a **custom secret code** (e.g. **./my_mastermind -c 0123**).
+> * **`-c [code]` :** Sets a **custom secret code**.
+> (**`./my_mastermind -c 0123`**)
 > <br>
 > 
-> * **-t [attempts] :** Specifies the **maximum number of attempts allowed** (e.g. **./my_mastermind -t 5**).
+> * **`-t [attempts]` :** Specifies the **maximum number of attempts allowed**. (**`./my_mastermind -t 5`**)
 
 <br />
 
 > [!WARNING]
-> **Before playing:** Make sure to **compile the program first** by running **"make"** in your terminal.
+> **Before playing:** Make sure to **compile the program first** by running **" `make` "** in your terminal.
 
 <br />
 <br />
@@ -747,10 +748,10 @@ Maintainability: Using a shared header file for constants and function declarati
 > <br>
 > 
 > To **compile the project**, run the **terminal command**:
-> * **" make " or "make re"**.
+> * **" `make` " or " `make re` "**.
 > 
 > To **execute** the **game**:
-> * **" ./my_mastermind "** .
+> * **" `./my_mastermind` "** .
 > 
 > The **project** can be directly downloaded on **GitHub**.
 >
