@@ -149,8 +149,8 @@
 >
 > The application is coded in **"JavaScript"** a script coding language used for **web development**. 
 > The program hosts a local server with the framework **"express"**.
-> We include the framework with **"require('express')"** and **"app = express();"**.
-> We define the **Host to: '0.0.0.0'** and the **Port to: "8080"**.
+> We include the framework with **"require('express')"** and **" `app = express();` "**.
+> We define the **Host to: '0.0.0.0'** and the **Port to: " `8080` "**.
 
 ```javascript
 const express = require('express');
@@ -164,7 +164,7 @@ const port = 8080;
 
 > This code can be executed by using the command on the **second terminal**: 
 > 
-> * **" curl `http://localhost:8080/`"**
+> * **" `curl http://localhost:8080/` "**
 > 
 > It takes **randomly one of the 20 songs titles** of **Frank Sinatra** on the **list** and **prints it on the console**.
 
@@ -203,10 +203,10 @@ app.get('/', (req, res) => {
 
 > These codes can be executed by using the commands on the **second terminal**: 
 > 
-> * **" curl `http://localhost:8080/birth_date`"**: Give Frank Sinatra's **birth date**.
-> * **" curl `http://localhost:8080/birth_city`"**: Give Frank Sinatra's **city of birth**.
-> * **" curl `http://localhost:8080/wives`"**: Give the list of Frank Sinatra's **wives**.
-> * **" curl `http://localhost:8080/picture`"**: Redirect to a **picture** of Frank Sinatra.
+> * **" `curl http://localhost:8080/birth_date` "**: Give Frank Sinatra's **birth date**.
+> * **" `curl http://localhost:8080/birth_city` "**: Give Frank Sinatra's **city of birth**.
+> * **" `curl http://localhost:8080/wives` "**: Give the list of Frank Sinatra's **wives**.
+> * **" `curl http://localhost:8080/picture` "**: Redirect to a **picture of Frank Sinatra**.
 > 
 > In **general** it gives information about **Frank Sinatra**.
 
@@ -236,14 +236,14 @@ app.get('/picture', (req, res) => {
 
 > These codes can be executed by using the commands on the **second terminal**: 
 > <br/>
-> * **" curl `http://localhost:8080/public`"**: Will send Everybody can see this page.
+> * **" curl `http://localhost:8080/public` "**: Will send Everybody can see this page.
 >
-> * **" curl `http://localhost:8080/protected`"**: Will send you "Not Authorized", because you are not connected as an administrator (wrong username/password).
+> * **" curl `http://localhost:8080/protected` "**: Will send you "`Not Authorized`", because you are not connected as an administrator (**wrong username/password**).
 >
-> * **" curl -i `http://admin:admin@localhost:8080/protected`"**: Will give you access to the administrator space because you gave the **good** **username** and **password** which is **"admin:admin"**.
+> * **" 'curl -i `http://admin:admin@localhost:8080/protected` "**: Will give you access to the administrator space because you gave the **good username** and **password** which is **" `admin:admin`"**.
 > <br/>
 > 
-> It sets up the security and the administrator only space in the application.
+> It sets up the **security and the administrator only space** in the application.
 > 
 
 ```javascript
@@ -275,8 +275,8 @@ app.get('/protected', (req, res) => {
 <br />
 <br />
 
-> This code prints on the console the local server's host and port.
-> When you run the code by using the terminal command: **"node app.js"**.
+> This code prints on the console the **local server's `host` and `port`**.
+> When you run the code by using the terminal command: **" `node app.js`"**.
 ```javascript
 app.listen(port, () => {
     console.log("Server Started on http://", host, ":", port);
@@ -299,29 +299,29 @@ app.listen(port, () => {
 > ---
 >
 >
-> **app.get( ):** Define an HTTP GET route. It tells the server what action to perform when a client sends a GET request to a specific URL.
+> **`app.get( )`:** Define an HTTP GET route. It tells the server what action to perform when a client sends a GET request to a specific URL.
 > 
-> **req:** Represents the HTTP request sent by the client.
+> **`req`:** Represents the HTTP request sent by the client.
 > 
-> **res:** Represents the HTTP response that your "Express application" sends back to the client. 
+> **`res`:** Represents the HTTP response that your "Express application" sends back to the client. 
 >
-> **res.send( ):** Sends the final HTTP response to the console.
+> **`res.send( )`:** Sends the final HTTP response to the console.
 >
-> **res.set( ):** Sets custom HTTP headers on the outgoing response.
+> **`res.set( )`:** Sets custom HTTP headers on the outgoing response.
 >
-> **res.status( ):** sets the HTTP status code for the response in Express.js. (Examples: 400, 401, 200, 404, 201).
+> **`res.status( )`:** sets the HTTP status code for the response in Express.js. (Examples: 400, 401, 200, 404, 201).
 >
-> **app.listen( ):** Binds the server to a specific port and listens for incoming network requests. Officially starts the server.
+> **`app.listen( )`:** Binds the server to a specific port and listens for incoming network requests. Officially starts the server.
 >
-> **console.log( ):** Print a message to the console.
+> **`console.log( )`:** Print a message to the console.
 >
-> **buffer:** A built-in Node.js class designed to store and manipulate raw binary data such as images, files or network streams directly in memory. 
+> **`buffer`:** A built-in Node.js class designed to store and manipulate raw binary data such as images, files or network streams directly in memory. 
 >
-> **base64:** A binary-to-text encoding scheme that converts binary data into an ASCII string format, allowing files or images to be safely transferred over text-based protocols like HTTP or embedded inside JSON. 
+> **`base64`:** A binary-to-text encoding scheme that converts binary data into an ASCII string format, allowing files or images to be safely transferred over text-based protocols like HTTP or embedded inside JSON. 
 >
 >  <br>
 >
-> The application uses and returns several standard HTTP status codes to communicate the result of operations to the client:
+> The application uses and returns several **standard HTTP status codes** to communicate the **result** of operations to the **client**:
 > 
 > * **`200 (OK)`**: Indicates that the request has succeeded. Used on routes `/`, `/birth_date`, `/birth_city`, `/wives`, `/public`, and `/protected` when authentication succeeds. 
 > * **`302 (Found)`**: Indicates that the target resource resides temporarily under a different URL. Used on the `/picture` route to redirect to the official Wikipedia page.
@@ -329,10 +329,34 @@ app.listen(port, () => {
 > 
 > ---
 
-<br />
+> [!NOTE]
+> Terminal commands recap:
+> 
+> * **" `curl http://localhost:8080/` "**: It takes **randomly one of the 20 songs titles** of **Frank Sinatra** on the **list** and **prints it on the console**.
+> <br/>
+> 
+> * **" `curl http://localhost:8080/birth_date` "**: Give Frank Sinatra's **birth date**.
+> <br/>
+> 
+> * **" `curl http://localhost:8080/birth_city` "**: Give Frank Sinatra's **city of birth**.
+> <br/>
+> 
+> * **" `curl http://localhost:8080/wives` "**: Give the list of Frank Sinatra's **wives**.
+> <br/>
+> 
+> * **" `curl http://localhost:8080/picture` "**: Redirect to a **picture of Frank Sinatra**.
+> <br/>
+> 
+> * **" `curl http://localhost:8080/public` "**: Will send Everybody can see this page.
+> <br/>
+>
+> * **" `curl http://localhost:8080/protected` "**: Will send you "`Not Authorized`", because you are not connected as an administrator (**wrong username/password**).
+> <br/>
+>
+> * **" `curl -i http://admin:admin@localhost:8080/protected` "**: Will give you access to the administrator space because you gave the **good username** and **password** which is **" `admin:admin` "**.
 
 > [!WARNING]
-> **Before:** Don't forget to open a new terminal after doing **"Node app.js"** for doing the **commands "GET (curl)"**. 
+> **Before:** Don't forget to open a new terminal after doing **"`node app.js`"** for doing the **commands "GET (curl)"**. 
 
 <br />
 <br />
