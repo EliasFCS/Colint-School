@@ -276,8 +276,8 @@ app.get('/protected', (req, res) => {
 <br />
 
 > This code prints on the console the **local server's `host` and `port`**.
-> When you run the code by using the terminal command: 
-> **" `node app.js`"**.
+> 
+> When you run the code by using the terminal command: **" `node app.js`"**.
 ```javascript
 app.listen(port, () => {
     console.log("Server Started on http://", host, ":", port);
