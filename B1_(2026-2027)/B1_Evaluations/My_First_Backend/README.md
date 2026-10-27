@@ -390,7 +390,7 @@ app.listen(port, () => {
 > <br>
 > 
 > If the **framework express** is **not installed** on the **case**, do the **terminal command:**
-> * **" npm install express "**.
+> * **" `npm install express` "**.
 >
 > **The project can be directly downloaded on GitHub.**
 > 
