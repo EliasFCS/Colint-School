@@ -819,3 +819,7 @@ flowchart TB
 <a href="https://github.com/EliasFCS" target="_blank" rel="noopener">
   <img src="CreditBadge.svg" alt="EliasFCS Badge" width="450" height="54" />
 </a>
+
+<a href="https://github.com/EliasFCS/Colint-School/graphs/contributors?from=25%2F07%2F2026">
+   <img src="https://contrib.rocks/image?repo=EliasFCS/Colint-School" alt="Liste des contributeurs du projet" />
+</a>
