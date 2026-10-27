@@ -377,7 +377,7 @@ app.listen(port, () => {
 <br />
 
 | File | Defintion | 
-|:---:|:---|
+|:---:|:---:|
 |**app.js**|The **core** of the **app**, all the **project is concentrated in it**.|
 
 <br />

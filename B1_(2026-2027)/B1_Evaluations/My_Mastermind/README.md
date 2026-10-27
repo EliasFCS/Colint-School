@@ -761,7 +761,7 @@ Maintainability: Using a shared header file for constants and function declarati
 <br />
 
 | File | Defintion | 
-|:---:|:---|
+|:---:|:---:|
 |**Makefile**| **Compile my_mastermind.c** and create a **"my_mastermind executor"**.|
 |**header.h**|Stock **variables, functions prototypes and libraries** which will be **included in my_mastermind.c** with **"include header.h"**.|
 |**my_mastermind.c**|**Entry point** and **command-line argument handling**.|
