@@ -619,7 +619,7 @@ while (i < CODE_SIZE) {
 > 
 > #### 1. Utility Functions:
 >
-> These functions provide basic string manipulation and conversion operations used throughout the project.
+> These functions provide **basic string manipulation** and **conversion operations** used throughout the project.
 >
 > | Function | Description | 
 > |:---:|:---|
@@ -631,7 +631,7 @@ while (i < CODE_SIZE) {
 >
 >#### 2. Code Validation and Generation:
 >
-> These functions ensure that the secret code follows the game's rules.
+> These **functions** ensure that the **secret code** follows the **game's rules**.
 >
 >
 >| Function | Description | 
@@ -646,14 +646,14 @@ while (i < CODE_SIZE) {
 >
 > #### 3. Guess Evaluation:
 >
->The evaluate_guess() function compares the player's guess with the secret code and calculates two values:
+> **`The evaluate_guess( )`** function compares the player's guess with the secret code and calculates two values:
 >
-> * Well-placed pieces: Digits that match the secret code in both value and position.
+> * **`Well-placed pieces`**: Digits that match the secret code in both value and position.
 > <br>
 > 
-> * Misplaced pieces: Digits that exist in the secret code but appear in a different position.
+> * **`Misplaced pieces`**: Digits that exist in the secret code but appear in a different position.
 > 
->The function uses a two-pass comparison strategy to count matches while avoiding counting the same secret digit more than once.
+> The function uses a two-pass comparison strategy to count matches while avoiding counting the same secret digit more than once.
 >
 > <br>
 >
