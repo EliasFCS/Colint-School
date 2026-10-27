@@ -15,7 +15,7 @@
 </a>
 
 <a href="https://koor.fr/C/Tutorial/Index.wp" target="_blank" rel="noopener">
-  <img src="CBadge.svg" alt="Language C Badge" width="250" height="45" />
+  <img src="CBadge.svg" alt="Language C Badge" width="250" height="49" />
 </a>
 
 </div>
@@ -111,6 +111,10 @@
 > ---
 >
 > A client requested a **custom Mastermind desktop game** in which players must crack a **4-character secret code** composed of **digits ranging from "0" to "8"**. The **application requires a round-based attempt system** and **robust input validation** to **ensure code security** and **user error handling**. To meet these requirements with **optimal performance** and **low-level control**, I chose to develop the game in **"C"**.
+>
+> **Mastermind** is a **board game** for **`2` players**, the **goal** is to find the **"colour"** and the **"position"** of **`4`** or **`5` pawns** in **`10`** or **`12` attempts**.
+>
+> **But specifications** demands a **desktop game** with a code of **`4`** characters from **`0` to `8`**, that we must **crack in `10` attempts**.
 >
 > ---
 
