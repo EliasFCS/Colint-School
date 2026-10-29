@@ -3,7 +3,7 @@
     <linearGradient id="linearGradient" x1="0%" y1="0%" x2="100%" y2="100%">
   <stop offset="0%" stop-color="#FF3B30" />
   <stop offset="30%" stop-color="#289244ff" />
-  <stop offset="50%" stop-color="#0066FF" />
+  <stop offset="55%" stop-color="#0066FF" />
   <stop offset="100%" stop-color="#fa6c14" />
 </linearGradient>
 
