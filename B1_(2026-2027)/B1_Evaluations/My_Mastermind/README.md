@@ -663,23 +663,24 @@ while (i < CODE_SIZE) {
 >
 >Its responsibilities include:
 >
->* **Reading input** until a newline character is encountered.
+>* **Reading input** until a **newline character** is **encountered**.
 > <br>
+>
 >* **Storing the input** in a **buffer**.
 > <br>
 >
 >* **Ensuring the string** is **null-terminated** when returning a **complete input line**.
 > <br>
 > 
->* Handling end-of-file (EOF), allowing the program to exit cleanly when no more input is available.
+>* **Handling end-of-file (EOF)**, allowing the **program** to **exit cleanly** when **no more input is available**.
 >
->Input validation is then used to determine whether the >player's guess meets the game's requirements.
+>**Input validation** is then used to **determine whether the player's guess** meets the **game's requirements**.
 >
 > <br>
 > 
 > #### 5. Game Configuration:
 >
->The project uses constants defined in header.h to centralize important configuration values.
+>The **project** uses **constants defined** in **header.h** to centralize important **configuration values**.
 >
 > |Constant |Value |Purpose|
 > |:---:|:---:|:---|
