@@ -163,7 +163,7 @@
 > * **`make fclean`:** **Removes object files** and the **generated executable**.
 > <br>
 > 
-> * **`make re`:** Performs a **clean re-compilation** (`fclean` followed by `all`).
+> * **`make re`:** Performs a **clean re-compilation**.
 
 ```Makefile
 CC = gcc
@@ -704,12 +704,26 @@ Maintainability: Using a shared header file for constants and function declarati
 > ---
 
 > [!NOTE]
-> The application accepts optional command-line flags:
+> #### The application accepts optional command-line flags:
 > * **`-c [code]` :** Sets a **custom secret code**.
 > (**`./my_mastermind -c 0123`**)
 > <br>
 > 
 > * **`-t [attempts]` :** Specifies the **maximum number of attempts allowed**. (**`./my_mastermind -t 5`**)
+> <br>
+>
+> #### Available Rules recap:
+>
+> * **`make`: Compiles the project** and generates the **`my_mastermind`** executable.
+> <br>
+>
+> * **`make clean`:** **Removes object files** (`.o`).
+> <br>
+>
+> * **`make fclean`:** **Removes object files** and the **generated executable**.
+> <br>
+> 
+> * **`make re`:** Performs a **clean re-compilation**.
 
 <br />
 
