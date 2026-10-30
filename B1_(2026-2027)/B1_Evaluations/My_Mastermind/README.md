@@ -659,16 +659,16 @@ while (i < CODE_SIZE) {
 >
 > #### 4. Input Handling:
 >
-> The read_guess() function reads the player's input from standard input one character at a time using the low-level read() system call.
+> The **`read_guess( )`** function reads the player's input from standard input one character at a time using the **`low-level read( )`** system call.
 >
 >Its responsibilities include:
 >
->* Reading input until a newline character is encountered.
+>* **Reading input** until a newline character is encountered.
 > <br>
->* Storing the input in a buffer.
+>* **Storing the input** in a **buffer**.
 > <br>
 >
->* Ensuring the string is null-terminated when returning a complete input line.
+>* **Ensuring the string** is **null-terminated** when returning a **complete input line**.
 > <br>
 > 
 >* Handling end-of-file (EOF), allowing the program to exit cleanly when no more input is available.
@@ -687,19 +687,23 @@ while (i < CODE_SIZE) {
 > |**`DEFAULT_ATTEMPTS`**|**`10`**|Sets the **default number** of **attempts**.|
 > |**`VALID_PIECES`**|**"`012345678`"**|Defines the **permitted digits**.|
 >
->Centralizing these values improves readability and makes the code easier to maintain.
+>Centralizing these values improves **readability** and makes the **code easier to maintain**.
 >
 > <br>
 >
 >#### Design Principles
 >
->The project is organized around three main principles:
+>The project is organized around **three main principles**:
 >
->Modularity: Separating utility functions, code operations, and game logic into distinct source files.
-Input validation: Checking user input before evaluating a guess.
-Maintainability: Using a shared header file for constants and function declarations.
->
->This structure makes the program easier to understand, test, debug, and extend.
+>* **Modularity**: Separating utility functions, code operations, and game logic into distinct source files.
+> <br>
+> 
+>* **Input validation**: Checking user input before evaluating a guess.
+> <br>
+> 
+>* **Maintainability**: Using a shared header file for constants and function declarations.
+> <br>
+>This **structure** makes the **program easier** to **understand, test, debug, and extend**.
 > 
 > ---
 
