@@ -5,6 +5,24 @@ void my_christmas_tree(int size) {
     if (size <= 0) { 
         return; 
     } 
+
+    int trunk_width = 0;
+    int trunk_height = 0;
+    int xspace = 0;
+    int yspace = 0;
+
+    
+    trunk_width * size;
+    trunk_height * size;
+    xspace ;
+    yspace ;
+
+    for (int y = 0; y < yspace; y++) {
+        for (int x = 0; x < xspace; x++) {
+            putchar(' ');
+
+        }
+    }
 }
 
 
