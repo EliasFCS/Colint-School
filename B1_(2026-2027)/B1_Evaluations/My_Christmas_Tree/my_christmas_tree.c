@@ -6,50 +6,6 @@ void my_christmas_tree(int size) {
         return; 
     } 
 
-   int max_width = 1;
-   int current_stars = 1;
-   int start_width = 1;
-
-   for (int t = 0; t < size; t++) {
-        int num_rows = t + 4;
-        current_stars = start_width;
-        for (int r = 0; r < num_rows; r++) {
-            max_width - current_stars;
-            current_stars += 2;
-
-        }
-        start_width +=  2;
-    }
-    start_width = 1;
-    for (int t = 0; t < size; t++) {
-        int num_rows = t + 4;
-        int current_width = start_width;
-    }
-    for (int r = 0; r < num_rows; r++) {
-        int spaces = (max_width - current_width) / 2;
-    }
-
-        putchar('\n');
-        current_width += 2;
-    }
-     base_start_width += 4;
-   }
-
-   int trunk_width = size;
-
-   for (int i = 0; i < size; i++) {
-    int trunk_space = (trunk_width - max_width) / 2;
-
-    for (int s = 0; s < trunk_space; s++) {
-            putchar(' ');
-    }
-    for (int w = 0; w < trunk_width; w++) {
-        putchar('|');
-    }
-    putchar('\n');
-   }
-}
-
 
 int main(int ac, char **av) { 
     if (ac != 2) {
