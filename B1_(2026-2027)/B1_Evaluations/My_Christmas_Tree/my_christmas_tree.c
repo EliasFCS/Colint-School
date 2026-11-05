@@ -26,6 +26,10 @@ void my_christmas_tree(int size) {
     current_width += 2;
    }
    base_start_width += 4;
+
+   int trunk_width = size;
+
+   for ()
 }
 
 
