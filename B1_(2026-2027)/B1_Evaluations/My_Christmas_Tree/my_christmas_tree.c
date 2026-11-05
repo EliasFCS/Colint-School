@@ -1,37 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
 
 void my_christmas_tree(int size) {      
     if (size <= 0) { 
         return; 
     } 
 
-    int x = 0;
-    int y = 0;
+   int max_width = 6 * size + 1;
+   int base_start_width = 1;
 
-    int LeafWidth = size + 2;
-    int TrunkAir = size * size;
+   for (int t = 0; t < size; t++) {
+    int num_rows = t + 4;
+    int current_width = base_start_width;
 
-    for (int row = 0; row < y; row++) {
-        for (int col = 0; col < x; col++) {
-            if ((row == 0 || row == y - 1) && (col == 0 || col == x - 1)) {
-                putchar(' ');
-            }
-             else if (row == 0 || row == y - 1) {
-                putchar('*');
-            }
-            else if (row == 0 || row == y - 1) {
-                putchar('*') * LeafWidth;
-            }
-            else (col == 0 || col == x - 1) {
-                putchar('|') * TrunkAir;
-            }
-        }
-        putchar('\n');
+    for (int r = 0; r < num_rows; r++) {
+        int spaces = (max_width - current_width / 2);
     }
-
-}
+   }
 
 // row: lignes, col: colonne.
 
