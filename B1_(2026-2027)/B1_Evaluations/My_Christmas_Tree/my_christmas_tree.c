@@ -15,8 +15,17 @@ void my_christmas_tree(int size) {
 
     for (int r = 0; r < num_rows; r++) {
         int spaces = (max_width - current_width / 2);
+        for (int s = 0; s < spaces; s++) {
+            putchar(' ');
+        }
     }
+    for (int w = 0; w < current_width; w++) {
+        putchar('*');
+    }
+    putchar('\n');
+    current_width += 2;
    }
+   base_start_width += 4;
 }
 
 // row: lignes, col: colonne.
