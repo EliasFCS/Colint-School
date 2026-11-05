@@ -17,6 +17,7 @@ void my_christmas_tree(int size) {
         int spaces = (max_width - current_width / 2);
     }
    }
+}
 
 // row: lignes, col: colonne.
 
