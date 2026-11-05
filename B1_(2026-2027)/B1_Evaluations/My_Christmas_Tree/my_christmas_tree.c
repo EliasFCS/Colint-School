@@ -29,7 +29,11 @@ void my_christmas_tree(int size) {
 
    int trunk_width = size;
 
-   for ()
+   for (int i = 0; i < size; i++) {
+    int trunk_space = (trunk_width - max_width) / 2;
+
+    putchar('|');
+   }
 }
 
 
