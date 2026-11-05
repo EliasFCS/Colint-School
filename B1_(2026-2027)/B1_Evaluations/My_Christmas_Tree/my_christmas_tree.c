@@ -7,8 +7,37 @@ void my_christmas_tree(int size) {
         return; 
     } 
 
+    int x = 0;
+    int y = 0;
+
+    int LeafWidth = size + 2;
+    int TrunkAir = size * size;
+
+    for (int row = 0; row < y; row++) {
+        for (int col = 0; col < x; col++) {
+            if ((row == 0 || row == y - 1) && (col == 0 || col == x - 1)) {
+                putchar(' ');
+            }
+             else if (row == 0 || row == y - 1) {
+                putchar('*');
+            }
+            else if (row == 0 || row == y - 1) {
+                putchar('*') * LeafWidth;
+            }
+            else (col == 0 || col == x - 1) {
+                putchar('|') * TrunkAir;
+            }
+        }
+        putchar('\n');
+    }
 
 }
+
+// row: lignes, col: colonne.
+
+// Aire Rectangle: Aire=Longueur×largeur(𝐴=𝐿×𝑙)
+
+
 /*    
     for (int row = 0; row < y; row++) {
         for (int col = 0; col < x; col++) {
