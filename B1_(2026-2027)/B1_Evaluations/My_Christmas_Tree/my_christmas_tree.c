@@ -5,6 +5,7 @@ void my_christmas_tree(int size) {
     if (size <= 0) { 
         return; 
     } 
+}
 
 
 int main(int ac, char **av) { 
