@@ -28,35 +28,9 @@ void my_christmas_tree(int size) {
    base_start_width += 4;
 }
 
-// row: lignes, col: colonne.
-
-// Aire Rectangle: Aire=Longueur×largeur(𝐴=𝐿×𝑙)
-
-
-/*    
-    for (int row = 0; row < y; row++) {
-        for (int col = 0; col < x; col++) {
-            if ((row == 0 || row == y - 1) && (col == 0 || col == x - 1)) {
-                putchar('*');
-            }
-            else if (row == 0 || row == y - 1) {
-                putchar('*');
-            }
-            else if (col == 0 || col == x - 1) {
-                putchar('|');
-            }
-            else {
-                putchar(' ');
-            }
-        }
-        putchar('\n');
-    }
-}
-*/
-
 
 int main(int ac, char **av) { 
-    if (ac != 3) {
+    if (ac != 2) {
         return 0;
     }
 
