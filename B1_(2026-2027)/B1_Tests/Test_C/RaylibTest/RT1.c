@@ -9,6 +9,7 @@ int main(void) {   // Début de la zone main. (Point d'entrée).
   InitWindow(screenWidth, screenHeight, "Test Raylib"); // Initialise la fenêtre/l'écran  InitWindow(Largeur, Hauteur, "Titre de la fenêtre") avec les 2 variables précédement déclarés et définies.
   SetTargetFPS(60);   // Fixe le nombre d'images par secondes (FPS).
 
-  Vector2 ballPosition = { (float)screenWidth / 2.0f, (float)screenHeight / 2.0f };
+  Vector2 ballPosition = { (float)screenWidth / 2.0f, (float)screenHeight / 2.0f }; // Réglage de la position initiale du cercle en utilisant les 2 variables int qui permet de définir la taille de la fenêtre, dans un formule mathématique.
+
   
 }
