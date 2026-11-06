@@ -37,7 +37,7 @@ int main(void) {   // Début de la zone main. (Point d'entrée).
     BeginDrawing();
       ClearBackground(RAYWHITE);    // Met la couleur de l'arrière plan en Blanc. 
       DrawText("Utilisez les flêches du clavier pour bouger le cercle !", 190, 40, 20, DARKGRAY);   // Affiche un texte en gris sombre (DARKGRAW) à des coordonnées définits.
-      DrawCircleV(ballPosition, 50.0f, RED)   // Dessine le cercle rouge au centre qu'on va contrôler avec les touches qu'on a configuré precédement.
+      DrawCircleV(ballPosition, 50.0f, RED);   // Dessine le cercle rouge au centre qu'on va contrôler avec les touches qu'on a configuré precédement.
     
     EndDrawing();
   }
