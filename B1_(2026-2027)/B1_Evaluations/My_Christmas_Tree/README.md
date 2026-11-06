@@ -141,32 +141,31 @@
 > <br />
 >
 >  ### " my_christmas_tree.c " : 
+> <br>
+> <br>
+> 
+> #### 1. Utility Functions:
+> <br>
+> 
+> **ft_putchar(char c)**: This function uses the low-level system call write(1, &c, 1) to print a single character to standard output (STDOUT_FILENO, represented by 1). It is a manual implementation of putchar, commonly used in systems programming and coding school exercises.
+> <br>
+> 
+> **print_line(int spaces, int stars, char c)**: This helper function simplifies printing a full line to avoid code duplication. It first prints the required number of spaces (spaces) to ensure proper horizontal alignment and centering. It then prints the specified character (c, which will be * for foliage or | for the trunk) the given number of times (stars). Finally, it ends the line with a newline character (\n).
+> <br>
+> <br>
+> #### 2. Main Entry Point and Argument Validation:
+> <br>
+> 
+> **Argument Count Check (argc != 2)**: The program requires exactly **one argument** (**the size of the tree**). If the user **runs the program incorrectly** (**./my_christmas_tree with no arguments or multiple arguments**), the **program exits quietly by returning 0**.
+> <br>
 >
-> 1. Utility Functions
-> ft_putchar(char c)
->
-> This function uses the low-level system call write(1, &c, 1) to print a single character to standard output (STDOUT_FILENO, represented by 1). It is a manual implementation of putchar, commonly used in systems programming and coding school exercises.
->
-> print_line(int spaces, int stars, char c)
->
-> This helper function simplifies printing a full line to avoid code duplication:
->
-> It first prints the required number of spaces (spaces) to ensure proper horizontal alignment and centering.
->
-> It then prints the specified character (c, which will be * for foliage or | for the trunk) the given number of times (stars).
->
-> Finally, it ends the line with a newline character (\n).
->
-> 2. Main Entry Point and Argument Validation
-> Argument Count Check (argc != 2)
->
-> The program requires exactly one argument (the size of the tree). If the user runs the program incorrectly (e.g., ./my_christmas_tree with no arguments or multiple arguments), the program exits quietly by returning 0.
->
-> Size Validation (size <= 0)
->
-> The argument is converted to an integer using atoi(). If the size is 0 or negative, the program terminates immediately without printing anything, matching the requirements for Example 0 and negative inputs.
->
-> 3. Calculating Maximum Width (max_width)
+> **Size Validation (size <= 0)**: The **argument is converted to an integer** using **atoi()**. If the **size is 0 or negative**, the **program terminates immediately** without **printing anything**, matching the **requirements for Example 0** and **negative inputs**.
+> <br>
+> <br>
+> 
+> #### 3. Calculating Maximum Width (max_width):
+> <br>
+> 
 > To center the tree perfectly, the program needs to know the exact length of the very bottom row (the base of the tree).
 >
 > A preliminary loop simulates the structure of each tier (t) from top to bottom to determine the row count and star count.
