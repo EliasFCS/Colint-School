@@ -22,5 +22,15 @@ int main(void) {   // Début de la zone main. (Point d'entrée).
 
   while (!WindowShouldClose())    // Boucle while qui s'éxécute en permanence tant que la fenêtre n'est pas en train de se fermer. (vérifie si on n'a pas appuyé sur la croix).
   {
+    // ---- (Mise à jour en temps réel)  ---- 
+    // Les contrôles (Déplacements du cercles avec des conditions if).
+
+    if (IsKey)
+    if ()
+    if ()
+    if ()
+    
+    
+
   }
 }
