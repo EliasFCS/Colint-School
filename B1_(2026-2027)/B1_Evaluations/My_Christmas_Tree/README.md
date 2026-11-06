@@ -147,10 +147,10 @@
 > #### 1. Utility Functions:
 > <br>
 > 
-> **ft_putchar(char c)**: This function uses the low-level system call write(1, &c, 1) to print a single character to standard output (STDOUT_FILENO, represented by 1). It is a manual implementation of putchar, commonly used in systems programming and coding school exercises.
+> **ft_putchar(char c)**: This **function** uses the **low-level system call write(1, &c, 1)** to **print a single character** to **standard output** (**`STDOUT_FILENO`, represented by `1`**). It is a **manual implementation of putchar**.
 > <br>
 > 
-> **print_line(int spaces, int stars, char c)**: This helper function simplifies printing a full line to avoid code duplication. It first prints the required number of spaces (spaces) to ensure proper horizontal alignment and centering. It then prints the specified character (c, which will be * for foliage or | for the trunk) the given number of times (stars). Finally, it ends the line with a newline character (\n).
+> **print_line(int spaces, int stars, char c)**: This **helper function simplifies printing** a **full line** to avoid **code duplication**. It first prints the **required number of spaces (spaces)** to ensure **proper horizontal alignment and centering**. It then **prints the specified character (c**, which will be **`*` for foliage or `|` for the trunk**) the given number of **times (stars)**. Finally, it **ends the line** with a **newline character (\n)**.
 > <br>
 > <br>
 > #### 2. Main Entry Point and Argument Validation:
@@ -166,26 +166,26 @@
 > #### 3. Calculating Maximum Width (max_width):
 > <br>
 > 
-> To center the tree perfectly, the program needs to know the exact length of the very bottom row (the base of the tree).
+> To **center the tree perfectly**, the **program needs** to know the exact **length** of the **very bottom row** (**the base of the tree**).
 > 
-> A preliminary loop simulates the structure of each tier (t) from top to bottom to determine the row count and star count.
+> A **preliminary loop simulates** the **structure** of each **tier (t)** from **top to bottom** to determine the **row count** and **star count**. 
 > 
-> The variable max_width stores the length of the final row, which acts as the reference point to calculate the left indentation (spaces) for all preceding lines and the trunk.
+> The **variable max_width** stores the **length of the final row**, which acts as the reference **point to calculate the left indentation (spaces)** for all **preceding lines and the trunk**.
 > <br>
 > <br>
 > 
 > #### 4. Drawing the Foliage (Tiers):
 > <br>
 > 
->The program loops through each tier (t) and each row (r) within that tier.
+>The **program loops** through each **tier (t)** and each **row (r)** within that tier.
 >
-> For every row, it calculates:
+> **For every row, it calculates**:
 >
-> The number of stars (stars) based on the current progression.
+> * The **number of stars (stars)** based on the **current progression**.
 > 
-> The number of leading spaces: (max_width - stars) / 2, ensuring symmetrical centering relative to the base.
+> * The **number of leading spaces**: **`(max_width - stars) / 2`** ensuring **symmetrical centering** relative to the **base**.
 >
-> It then calls print_line(spaces, stars, '*') to output the line.
+> * It then calls **print_line(spaces, stars, `*`)** to output the line.
 > <br>
 > <br>
 >
@@ -198,11 +198,9 @@
 > int trunk_width = (size % 2 == 0) ? size + 1 : size;
 > ```
 >
->If the size is even, the trunk width is adjusted to an odd number to maintain symmetry with the center of the tree.
+>If the **size** is even, the **trunk width is adjusted to an odd number** to maintain **symmetry** with the **center of the tree**.
 >
-> Height and Display:
->
-> The height of the trunk is exactly equal to size (e.g., 5 lines of ||||| for a size of 5). It is centered using the same spacing formula: (max_width - trunk_width) / 2.
+> **Height and Display**: The **height** of the **trunk** is exactly equal to size (**`5`** lines of **`|||||`** for a size of **`5`**). It is **centered** using the same **spacing formula: `(max_width - trunk_width) / 2`**.
 
 ```C
 #include <unistd.h>
