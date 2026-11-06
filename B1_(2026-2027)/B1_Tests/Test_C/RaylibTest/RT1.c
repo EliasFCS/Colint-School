@@ -21,7 +21,8 @@ int main(void) {   // Début de la zone main. (Point d'entrée).
   // ---- 2. (Boucle Principale du jeu)  ---- 
 
   while (!WindowShouldClose())    // Boucle while qui s'éxécute en permanence tant que la fenêtre n'est pas en train de se fermer. (vérifie si on n'a pas appuyé sur la croix).
-  {
+  {  // Début de la Boucle de jeu while.
+
     // ---- (Mise à jour en temps réel)  ---- 
     // Les contrôles (Déplacements du cercles avec des conditions if).
 
@@ -34,16 +35,18 @@ int main(void) {   // Début de la zone main. (Point d'entrée).
     // ---- (Dessin)  ----
     // Gère l'aspect visuel.
     
-    BeginDrawing();
+    BeginDrawing(); // Début zone de dessin.
       ClearBackground(RAYWHITE);    // Met la couleur de l'arrière plan en Blanc. 
       DrawText("Utilisez les flêches du clavier pour bouger le cercle !", 190, 40, 20, DARKGRAY);   // Affiche un texte en gris sombre (DARKGRAW) à des coordonnées définits.
       DrawCircleV(ballPosition, 50.0f, RED);   // Dessine le cercle rouge au centre qu'on va contrôler avec les touches qu'on a configuré precédement.
     
-    EndDrawing();
-  }
+    EndDrawing(); // Fin zone de dessin.
+
+  }   // Fin de la boucle de jeu while.
 
   // ---- 3. (Fermeture de la fenêtre et nettoyage)  ----
   CloseWindow();  // Ferme la fenêtre
 
   return 0;   // Permet d'empêcher des érreurs.
-}
+
+}  // Fin de la zone main.
