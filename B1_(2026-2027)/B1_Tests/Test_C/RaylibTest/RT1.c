@@ -41,7 +41,8 @@ int main(void) {   // Début de la zone main. (Point d'entrée).
     
     EndDrawing();
   }
-  CloseWindow();
+  // ---- (Fermeture de la fenêtre et nettoyage)  ----
+  CloseWindow();  // Ferme la fenêtre
 
-  return 0;
+  return 0;   // Permet d'empêcher des érreurs.
 }
