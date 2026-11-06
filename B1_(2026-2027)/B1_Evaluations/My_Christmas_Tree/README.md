@@ -118,7 +118,7 @@
 
 <div align="center">
 
-<img src="ReadmeRessource1.jpg" alt="error message" width="200" align="center">
+<img src="ReadmeRessource1.jpg" alt="Language C logo" width="200" align="center">
 
 <br />
 
