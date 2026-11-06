@@ -120,7 +120,7 @@
 
 <img src="ReadmeRessource1.jpg" alt="Language C logo" width="200" align="center">
 
-<br />
+<br>
 
 *"Language C logo"*
 
