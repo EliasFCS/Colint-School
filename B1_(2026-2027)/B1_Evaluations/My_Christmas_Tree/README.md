@@ -7,7 +7,7 @@
 <div align="center">
 
 <a href="" target="_blank" rel="noopener">
-  <img src="Badge.svg" alt="Badge" width="250" height="49" />
+  <img src="CBadge.svg" alt="Language C Badge" width="250" height="49" />
 </a>
 
 </div>
@@ -135,8 +135,8 @@
 <br />
 
 ><a href="" target="_blank" rel="noopener">
->  <img src=".svg" alt="Badge" width="250" height="50" />
-> </a>
+>  <img src="CBadge.svg" alt="Language C Badge" width="250" height="50" />
+></a>
 >
 > <br />
 >
@@ -344,11 +344,12 @@ int main(int argc, char **argv) {
 
 ```mermaid
 flowchart TB
+   
+    Main[my_christmas_tree.c] --> Executable((my_christmas_tree 'executable'))
+    
+    style Executable fill:#232323,stroke:#F5F5F0,stroke-width:2px,color:#fff
 
-    Executable(("Text".))
-
-    style Executable fill:#000,stroke:#F5F5F0,stroke-width:2px,color:#fff
-
+    style Main fill:#283593,stroke:#F5F5F0,stroke-width:2px,color:#fff
 ```
 
 *"Project Composition"*
