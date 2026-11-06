@@ -25,12 +25,23 @@ int main(void) {   // Début de la zone main. (Point d'entrée).
     // ---- (Mise à jour en temps réel)  ---- 
     // Les contrôles (Déplacements du cercles avec des conditions if).
 
-    if (IsKey)
-    if ()
-    if ()
-    if ()
-    
-    
+    if (IsKeyDown(KEY_RIGHT)) ballPosition.x += 4.0f;
+    if (IsKeyDown(KEY_LEFT)) ballPosition.x -= 4.0f;
+    if (IsKeyDown(KEY_DOWN)) ballPosition.y += 4.0f;
+    if (IsKeyDown(KEY_UP)) ballPosition.y -= 4.0F;
 
+
+    // ---- (Dessin)  ----
+    // Gère l'aspect visuel.
+    
+    BeginDrawing();
+      ClearBackground(RAYWHITE);    // Met la couleur de l'arrière plan en Blanc. 
+      DrawText("Utilisez les flêches du clavier pour bouger le cercle !", 190, 40, 20, DARKGRAY);   // Affiche un texte en gris sombre (DARKGRAW) à des coordonnées définits.
+      DrawCircleV(ballPosition, 50.0f, RED)   // Dessine le cercle rouge au centre qu'on va contrôler avec les touches qu'on a configuré precédement.
+    
+    EndDrawing();
   }
+  CloseWindow();
+
+  return 0;
 }
