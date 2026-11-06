@@ -329,7 +329,7 @@ int main(int argc, char **argv) {
 
 | File | Description | 
 |:---:|:---:|
-|**file.***| **Text**.|
+|**my_christmas_tree**| The **main file** it countains the **program** which will draw the **christmas tree** on the **console**.|
 
 <br />
 <br />
