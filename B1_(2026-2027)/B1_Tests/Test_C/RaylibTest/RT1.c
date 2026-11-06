@@ -3,6 +3,9 @@
 
 int main(void) {   // Début de la zone main. (Point d'entrée).
   
+
+  // ---- 1. (Configuration des variables et de la fenêtre)  ---- 
+
   const int screenWidth = 800;    // Fixe la largeur de la fenêtre avec une variable constante de type integer.
   const int screenHeight = 450;   // Fixe la hauteur de la fenêtre avec une variable constante de type integer.
 
@@ -11,5 +14,13 @@ int main(void) {   // Début de la zone main. (Point d'entrée).
 
   Vector2 ballPosition = { (float)screenWidth / 2.0f, (float)screenHeight / 2.0f }; // Réglage de la position initiale du cercle en utilisant les 2 variables int qui permet de définir la taille de la fenêtre, dans un formule mathématique.
 
-  
+
+
+
+
+  // ---- 2. (Boucle Principale du jeu)  ---- 
+
+  while (!WindowShouldClose())    // Boucle while qui s'éxécute en permanence tant que la fenêtre n'est pas en train de se fermer. (vérifie si on n'a pas appuyé sur la croix).
+  {
+  }
 }
