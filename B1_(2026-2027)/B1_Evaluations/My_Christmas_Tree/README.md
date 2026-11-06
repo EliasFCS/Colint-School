@@ -167,12 +167,16 @@
 > <br>
 > 
 > To center the tree perfectly, the program needs to know the exact length of the very bottom row (the base of the tree).
->
+> 
 > A preliminary loop simulates the structure of each tier (t) from top to bottom to determine the row count and star count.
->
+> 
 > The variable max_width stores the length of the final row, which acts as the reference point to calculate the left indentation (spaces) for all preceding lines and the trunk.
->
-> 4. Drawing the Foliage (Tiers)
+> <br>
+> <br>
+> 
+> #### 4. Drawing the Foliage (Tiers):
+> <br>
+> 
 >The program loops through each tier (t) and each row (r) within that tier.
 >
 > For every row, it calculates:
@@ -182,9 +186,13 @@
 > The number of leading spaces: (max_width - stars) / 2, ensuring symmetrical centering relative to the base.
 >
 > It then calls print_line(spaces, stars, '*') to output the line.
+> <br>
+> <br>
 >
-> 5. Drawing the Trunk
-> Trunk Width (trunk_width):
+> #### 5. Drawing the Trunk
+> <br>
+> 
+> Trunk Width (**trunk_width**):
 >
 > ```C
 > int trunk_width = (size % 2 == 0) ? size + 1 : size;
