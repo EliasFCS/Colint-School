@@ -1,1 +1,0 @@
-#include "raylib.h" // Inclusion de la bibliothèque Raylib.

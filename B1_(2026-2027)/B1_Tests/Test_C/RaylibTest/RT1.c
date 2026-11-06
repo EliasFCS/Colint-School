@@ -1,4 +1,4 @@
-#include "RTH.h"   // Inclusion du fichier Header (RTH.h) dans RT1.c
+#include "raylib.h" // Inclusion de la bibliothèque Raylib.
 
 
 int main(void) {   // Début de la zone main. (Point d'entrée).
@@ -8,5 +8,7 @@ int main(void) {   // Début de la zone main. (Point d'entrée).
 
   InitWindow(screenWidth, screenHeight, "game"); // Initialise la fenêtre/l'écran  InitWindow(Largeur, Hauteur, "Titre de la fenêtre") avec les 2 variables précédement déclarés et définies.
   SetTargetFPS(60);   // Fixe le nombre d'images par secondes (FPS).
+
+
 
 }
