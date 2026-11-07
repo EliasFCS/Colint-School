@@ -289,7 +289,15 @@ int main(int argc, char **argv) {
 <br>
 
 > [!WARNING]
+> **Before using:** Make sure to **compile the program first** by running:
 > 
+>*  **" `gcc -Wall -Wextra -Werror my_christmas_tree.c -o my_christmas_tree` "**.
+>
+>in your terminal.
+>
+> To **uncompile the program** run the command:
+> 
+>*  **" `rm my_christmas_tree.exe` "** or **" `rm my_christmas_tree` "**
 
 <br />
 <br />
