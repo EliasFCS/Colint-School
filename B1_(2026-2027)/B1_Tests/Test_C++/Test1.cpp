@@ -2,26 +2,25 @@
 
 int main (void) {
 
-  int integer = 4;
-  int integer2 = 36;
-  double float2 = 12.43;
-  char letter = 'E';
-  const char* string = "Test";
-  bool YN = true;
+
+  // Declaration and definition of variables.
+  int integer = 4;  // First integer.
+  int integer2 = 36; // Second integer.
+  double float2 = 12.43; // Double type.
+  char letter = 'E'; // A character.
+  const char* string = "Test"; // A string of characters.
+  bool YN = true; // Boolean Variable
 
 
-  int addition = integer + integer;  // 4 + 4 = 8.    
-  float substraction = float2 - integer;   // 12.43 - 4 = 8.43.
-  int multiplication = integer * integer;  // 4 * 4 = 16.
-  int division = integer2 / integer;  // 36 / 4 = 9. 
-  float stay = integer2 % integer;   // 36 % 4 = 0. 
+  int addition = integer + integer;  // 4 + 4 = 8. (addition)   
+  float substraction = float2 - integer;   // 12.43 - 4 = 8.43. (substraction)
+  int multiplication = integer * integer;  // 4 * 4 = 16. (multiplication)
+  int division = integer2 / integer;  // 36 / 4 = 9. (Division)
+  float stay = integer2 % integer;   // 36 % 4 = 0.  (Stay)
 
-  std::cout << "The result of the addition is:" << ' ' << addition << std::endl;
-  std::cout << "The result of the substraction is:" << ' ' << substraction << std::endl;
-  std::cout << "The result of the multiplication is:" << ' ' << multiplication << std::endl;
-  std::cout << "The result of the division is:" << ' ' << division << ' ' << "And the stay is:" << ' ' << stay << std::endl;
-  std::cout << "Example of Letter:" << ' ' << letter << ' ' << "And a Example of string:" << ' ' << string << std::endl;
-  std::cout << "The state of the variable YN is:" << ' ' << YN << std::endl;
-  
+
+  // Print all the results of variables manipulations/operations.
+  std::cout << "The result of the addition is:" << ' ' << addition << '\n' << "The result of the substraction is:" << ' ' << substraction << '\n' << "The result of the multiplication is:" << ' ' << multiplication << '\n' << "The result of the division is:" << ' ' << division << ' ' << "And the stay is:" << ' ' << stay << '\n' << "Example of Letter:" << ' ' << letter << ' ' << "And a Example of string:" << ' ' << string << '\n' << "The state of the variable YN is:" << ' ' << YN << std::endl;
+
   return 0;
 }
