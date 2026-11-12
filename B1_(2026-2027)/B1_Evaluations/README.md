@@ -4,9 +4,6 @@
 
 <br />
 <br />
-<br />
-<br />
-
 
 > #### Pre Saison Web:
 > <br />
@@ -27,4 +24,18 @@
 > #### Saison 1 Arc 02
 > <br />
 >
-> - [ ] 
+> - [x] My Christmas Tree
+>
+> - [ ] My Ls
+> 
+> - [ ] My Tar
+>
+> - [ ] My Readline
+>
+> - [ ] My Blockchain
+>
+> <br />
+>
+> #### Saison 1 Arc 02
+> <br />
+
