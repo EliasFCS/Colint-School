@@ -5,6 +5,8 @@
 <br />
 <br />
 
+> ---
+>
 > #### Pre Saison Web:
 > <br />
 >
@@ -36,6 +38,16 @@
 >
 > <br />
 >
-> #### Saison 1 Arc 02
+> #### Colint - CI/CD & DevOps
 > <br />
-
+>
+> - [ ] AI Prompt Librabry (DevOps)
+>
+> <br />
+>
+> #### Saône Local (group project)
+> <br />
+>
+> - [ ] Saône Local
+>
+> ---
