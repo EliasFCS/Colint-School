@@ -1,5 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <dirent.h>
 
+void my_ls(int argc , char **argv)
+{
+  
+}
 
+int main(int argc, char **argv)
+{
+  my_ls(argc, argv);
+  return 0;
+}
 
 
 
@@ -62,5 +75,25 @@ $>
         
 Tips
 Check /dev What is the difference between stat and lstat?
+
+//////////////
+Les étapes clés pour coder ft_ls
+
+1. Lecture des répertoires (opendir, readdir, closedir)
+	• Tu dois parcourir un ou plusieurs dossiers passés en arguments (ou le répertoire courant "." par défaut).
+	• Utiliser opendir() pour ouvrir le flux du répertoire, readdir() pour lire chaque entrée (struct dirent), puis closedir() à la fin. [1] (https://forum.hardware.fr/hfr/Programmation/C/coder-commande-sujet_138194_1.htm)
+2. Récupération des métadonnées (stat, lstat)
+	• Pour obtenir les permissions, la taille, le propriétaire, le groupe ou les dates, il faut appeler stat() ou lstat() (attention à bien utiliser lstat pour les liens symboliques afin de ne pas suivre la cible).
+	• Gérer les erreurs (par exemple si un fichier ou dossier passé en paramètre n'existe pas ou n'est pas accessible, comme sur le Forum Hardware). [1] (https://www.developpez.net/forums/d5318/c-cpp/c/reprogrammer-commande-ls-partir-fonction-stat/), [2] (https://forum.hardware.fr/hfr/Programmation/C/coder-commande-sujet_138194_1.htm)
+3. Gestion des options principales
+	• Les options les plus courantes à implémenter sont souvent mtacnet/ft_ls: Projet 42 - Langage C - Commande ls - GitHub :
+		• -a : Afficher les fichiers cachés (ceux commençant par un point .).
+		• -l : Format long (permissions, nombre de liens, utilisateur, groupe, taille, date de modification, nom).
+		• -R : Récursivité (parcourir les sous-répertoires).
+		• -r : Inverser l'ordre du tri.
+		• -t : Trier par date de modification (st_mtime) plutôt que par ordre alphabétique. [1] (http://debian-facile.org/doc:systeme:ls), [2] (https://blog.lesjeudis.com/commandes-linux-de-base), [3] (https://github.com/mtacnet/ft_ls)
+4. Tri et stockage des données
+	• Avant d'afficher, les entrées lues doivent être stockées (souvent dans une liste chaînée ou un tableau) puis triées selon le nom ou le timestamp. Discussions sur la méthode de tri sur OpenClassrooms. [1] (https://openclassrooms.com/forum/sujet/recoder-ls-l-comment-ordonner-l-affichage), [2] (https://github.com/mtacnet/ft_ls)
+
 
 */
