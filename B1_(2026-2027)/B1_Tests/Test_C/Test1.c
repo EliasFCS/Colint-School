@@ -588,7 +588,8 @@ int main(void) {
     for (int i = 1; i > max_reach; i++) {
         uint32_t index = arc4random_uniform(count);
         printf("%s", character[index]);
+        printf("\a");
+        system("afplay /System/Library/Sounds/Ping.aiff");
     }
-    printf("\n");
     return 0;
 }

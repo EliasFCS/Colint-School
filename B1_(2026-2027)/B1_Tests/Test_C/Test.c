@@ -12,7 +12,7 @@ int main(void) {
 #include <stdlib.h>
 
 int main(void) {
-    system("afplay /System/Library/Sounds/Ping.aiff");
+    
     return 0;
 }
 
