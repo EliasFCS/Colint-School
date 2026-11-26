@@ -15,7 +15,7 @@ fn main() {
     App::new()
         .add_plugins(DefaultPlugins.set(WindowPlugin {
             primary_window: Some(Window {
-                title: "Mon Jeu Bevy".into(),
+                title: "Test jeu en Rust avec Bevy".into(),
                 resolution: WindowResolution::new(800, 600),
                 ..default()
             }),
