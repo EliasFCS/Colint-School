@@ -275,6 +275,56 @@ int main(int argc, char *argv[]) // Standard entry point of the C program.
 > "Text".
 
 ```c
+#include "header.h" // Include header.h with necessary types/prototypes.
+```
+
+<br />
+<br />
+<br />
+
+> "Text".
+
+```c
+code
+```
+
+<br />
+<br />
+<br />
+
+> "Text".
+
+```c
+code
+```
+
+<br />
+<br />
+<br />
+
+> "Text".
+
+```c
+code
+```
+
+<br />
+<br />
+<br />
+
+> "Text".
+
+```c
+code
+```
+
+<br />
+<br />
+<br />
+
+> "Text".
+
+```c
 code
 ```
 
@@ -300,13 +350,68 @@ code
 > ---
 
 > [!NOTE]
-> "Text".
+> #### The application accepts optional command-line flags:
+>
+> <br/>
+> <br/>
+> 
+> * **`-a []` :** "Text":
+>```bash
+>./my_ls -a
+>```
+>
+> <br/>
+> <br/>
+>
+>* **`-t []` :** "Text":
+>```bash
+>./my_ls -t
+>```
+> 
+> <br/>
+> <br/>
+>
+> #### Available Rules recap:
+> 
+> <br/>
+>
+>```bash
+>make
+>```
+> **Compiles the project** and generates the **" `my_ls` "** executable.
+>
+> <br/>
+> <br/>
+>
+>```bash
+>make clean
+>```
+> **Removes object files** (`.o`).
+>
+> <br/>
+> <br/>
+>
+>```bash
+>make fclean
+>```
+> **Removes object files** and the **generated executable**.
+>
+> <br/>
+> <br/>
+> 
+>```bash
+>make re
+>```
+> Performs a **clean re-compilation**.
 
 <br />
 <br />
 
 > [!WARNING]
-> "Text".
+> **Before executing:** Make sure to **compile the program first** by running in **your terminal**:
+>```bash
+>make
+>```
 
 <br />
 <br />
@@ -331,31 +436,35 @@ code
 > <img src="./Readme_assets/GccBadge.svg" alt="GCC Badge" width="80" height="50" />
 > </a>
 >  ,
+> &nbsp;
 > <a href="https://docs.getbifrost.ai/deployment-guides/how-to/install-make" target="_blank" rel="noopener">
 > <img src="./Readme_assets/MakeFileBadge.svg" alt="Makefile Badge" width="150" height="50" /> 
 > </a> 
+> &nbsp;
 > and 
+> &nbsp;
 > <a href="https://learn.microsoft.com/fr-fr/windows/wsl/install" target="_blank" rel="noopener">
 > <img src="./Readme_assets/WSLBadge.svg" alt="WSL Badge" width="80" height="50" />
 > </a>
+> (if you use windows).
 >
 > <br>
 > <br>
 > <br>
 > <br>
 > 
-> "Text":
+> To **compile the project**, run the **terminal command**:
 >```bash
-> command to copy
+>make
 >```
 >
 > <br />
 > <br />
 > 
-> "Text":
+> To **execute** the **game**:
 > 
 >```bash
-> command to copy
+>./my_ls
 >```
 >
 > <br />
