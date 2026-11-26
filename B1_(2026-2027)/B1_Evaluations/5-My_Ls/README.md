@@ -151,7 +151,26 @@
 > <br>
 > <br>
 > 
-> "Text".
+> First, I created a **`Makefile`** to compile the project using **`gcc`** with strict warning flags (**"`-Wall -Wextra -Werror`"**). These flags enable **compiler warnings and treat them as errors**. The Makefile also creates the **"`my_ls`" executable**.
+> <br>
+>
+> #### Compilation & Build
+>
+> The project includes a **Makefile** to handle compilation with **`gcc`**. To improve **code quality** and **detect potential** issues **during compilation**, the project uses the **following compiler flags: "`-Wall -Wextra -Werror`"**.
+> <br>
+>
+> #### Available Rules:
+>
+> * **`make`: Compiles the project** and generates the **"`my_ls`" executable**.
+> <br>
+>
+> * **`make clean`:** **Removes object files** (**`.o`**).
+> <br>
+>
+> * **`make fclean`:** **Removes object files** and the **generated executable**.
+> <br>
+> 
+> * **`make re`:** Performs a **clean re-compilation**.
 
 ```Makefile
 CC = gcc # Definition of the used C compilator.
@@ -197,7 +216,29 @@ re: fclean all
 > <br>
 > <br>
 > 
-> "Text".
+> Next, I created a **custom header** file (**header.h**) to keep the codebase organized. It includes **essential standard libraries** (**`<stdio.h>, <stdlib.h>, <dirent.h>, <time.h>, <sys/stat.h>`** and **`<sys/types.h>`**). By **including this header** in **source files**, the **implementation code** remains **clean** and **focused** strictly on the **execution logic**.
+> <br>
+>
+>#### Standard Libraries Included:
+>
+> * **`<stdio.h>`:** Standard **Input/Output operations**.
+> <br>
+>
+> * **`<stdlib.h>`:**
+> <br>
+>
+> * **`<dirent.h>`:** 
+> <br>
+>
+> * **`<time.h>`:**
+> <br>
+>
+> * **`<sys/stat.h>`:**
+> <br>
+> * **`<sys/types.h>`:**
+
+> [!NOTE] 
+> Including **`header.h`** in **`.c` files** avoids **cluttering** the implementation logic with repetitive includes and definitions, keeping the **main logic concise and readable**.
 
 ```c
 #ifndef HEADER_H /* Protect against the double inclusion of header.h. */
