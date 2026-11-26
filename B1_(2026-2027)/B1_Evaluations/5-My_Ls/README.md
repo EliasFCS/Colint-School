@@ -154,7 +154,36 @@
 > "Text".
 
 ```Makefile
-code
+CC = gcc # Definition of the used C compilator.
+NAME = my_ls # Name of the final executable.
+CFLAGS = -Wall -Wextra -Werror -D_DEFAULT_SOURCE # Strict compilations settings + _DEFAULT_SOURCE for st_mtim.
+SRCS = main.c my_ls.c # List of the C files to compile.
+OBJS = $(SRCS:.c=.o) # List of the objects files (.o) generated from the "files.c".
+
+# Principal rule who activate the compilation of the executable.
+all: $(NAME)
+
+# Rule to create the final executable (my_ls).
+$(NAME):$(OBJS)
+	$(CC)$(CFLAGS) $(OBJS) -o$(NAME) 
+
+# Generic rule to compile every ".c" into ".o" without linking.
+%.o: %.c header.h
+	$(CC)$(CFLAGS) -c $< -o$@ 
+
+# Rule to delete objects files (.o).
+clean:
+	rm -f $(OBJS) 
+
+# Rule to delete all the objects files and the executable.
+fclean: clean
+	rm -f $(NAME) 
+
+# Rule to recompile the project from zero.
+re: fclean all
+
+# Declare the targets who are not the names of reals files.
+.PHONY: all clean fclean re
 ```
 
 <br />
@@ -171,7 +200,38 @@ code
 > "Text".
 
 ```c
-code
+#ifndef HEADER_H /* Protect against the double inclusion of header.h. */
+#define HEADER_H /* Define the macro guard of the inclusion. */
+
+#ifndef _DEFAULT_SOURCE /* Vérify if _DEFAULT_SOURCE is not already defined. */
+#define _DEFAULT_SOURCE /* Activate the extensions POSIX/BSD like st_mtim. */
+#endif /* End of the condition #ifndef _DEFAULT_SOURCE. */
+
+#include <dirent.h> /* For: opendir, readdir, closedir and struct dirent. */
+#include <stdio.h> /* For: printf (the visual render on the console). */
+#include <stdlib.h> /* For: malloc, free et NULL. */
+#include <sys/stat.h> /* For: stat, lstat, struct stat and S_ISDIR. */
+#include <sys/types.h> /* For: standars systems types (time_t, etc.). */
+#include <time.h> /* For: types related to the time. */
+
+typedef struct s_file /* Start of the structure representing a directory entry. */
+{ /* Opening bloc of the structure s_file. */
+    char *name; /* Name of the driectory entry. */
+    time_t sec; /* Secondes of the timestamp modification (st_mtim.tv_sec). */
+    long nsec; /* Nanosecondes of the timestamp modification (st_mtim.tv_nsec). */
+} t_file; /* Alias of the type t_file for struct s_file. */
+
+typedef struct s_operand /* Start of the structure representing of the operand CLI. */
+{ /* Opening bloc of the structure s_operand. */
+    char *name; /* String passed into an argument on the command line. */
+    int is_dir; /* Worth 1 if the operand is a directory, else 0. */
+    time_t sec; /* Secondes of the timestamp modification. */
+    long nsec; /* Nanosecondes of the timestamp modification. */
+} t_operand; /* Alias of the type t_operand for struct s_operand. */
+
+void my_ls(int argc, char *argv[]); /* Prototype of the principal function my_ls. */
+
+#endif /* End of the HEADER_H guard inclusion. */
 ```
 
 <br />
@@ -190,7 +250,13 @@ code
 > "Text".
 
 ```c
-code
+#include "header.h" // Include the definitions, structures and prototypes of the projet.
+
+int main(int argc, char *argv[]) // Standard entry point of the C program.
+{ // Start of the main function.
+    my_ls(argc, argv); // Call the function my_ls.
+    return 0; // Return 0 to indicate a normal execution.
+} // End of the main function.
 ```
 
 <br />
