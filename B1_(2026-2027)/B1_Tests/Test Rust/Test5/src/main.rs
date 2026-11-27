@@ -1,42 +1,39 @@
-/* Command to compile the program faster: " cargo run --features bevy/dynamic_linking " */ 
+// Command to compile the program faster: " cargo run --features bevy/dynamic_linking " 
 
-use bevy::prelude::*; /* Inclusion de Bevy avec les librairies essentiels et autres. */
-use bevy::window::WindowResolution; /* Inclusion de bevy window pour pouvoir créer des fenêtres d'applications. */
+#![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
-
-
-/* [1]---- Components and Entities zone  ---- [1] */
-
-const PLAYER_SIZE: f32 = 50.0; /* Définition entité. */
-
-#[derive(Component)] /* Définition component. */
-struct Player; /* Définition entité. */
-
-#[derive(Component)] /* Définition component. */
-struct Speed(f32); /* Définition entité. */
+use bevy::prelude::*;
+use bevy::window::WindowResolution;
 
 
+const PLAYER_SIZE: f32 = 50.0;
 
-/* [2]---- System's zone (avec le code de l'application) ---- [2] */
+#[derive(Component)]
+struct Player;
 
-fn main() { /* Début du point d'entrée, fonction main. */
-    App::new() /* Initialisation de la structure "app::new" de l'application. */
+#[derive(Component)] 
+struct Speed(f32);
+
+
+
+fn main() { 
+    App::new() 
     .add_plugins(DefaultPlugins.set(WindowPlugin {
             primary_window: Some(Window {
-                title: "Test application en Rust avec Bevy".into(), /* Permet d'avoir une fenêtre pour l'application. */
+                title: "Test application en Rust avec Bevy".into(), 
                 resolution: WindowResolution::new(800, 600),
                 ..default()
             }),
             ..default()
-        })) mise en place des plugins par défaut. */
-    .add_systems(Startup, setup) /* Exécution de la fonction dès le début de l'exécution. */
-    .add_systems(Update, move_player) /* Exécution de la fonction à chaques frames (60 fois/sec). */
-    .run(); /* Execution de l'application ".run();" */
-} /* Fin fonction main. */
+        }))
+    .init_resource::<GameSaveData>()
+    .add_systems(Startup, setup) 
+    .add_systems(Update, move_player)
+    .add_systems(Last, save_on_exit) 
+    .run(); 
+} 
 
 
-
-/* [3]---- Other System's zone (Avec les sous fonctions de main) ---- [3] */
 
 fn setup(mut commands: Commands) {
     commands.spawn(Camera2d);
@@ -78,5 +75,18 @@ fn move_player(
 
         transform.translation.x = (transform.translation.x + velocity.x).clamp(-half_w, half_w);
         transform.translation.y = (transform.translation.y + velocity.y).clamp(-half_h, half_h);
+    }
+}
+
+fn save_on_exit(
+    mut exit_messages: MessageReader<AppExit>, 
+    save_data: Res<GameSaveData>,
+) {
+    
+    if exit_messages.read().next().is_some() {
+        if let Ok(json) = serde_json::to_string_pretty(&*save_data) {
+            let _ = fs::write("savegame.json", json);
+            info!("Partie sauvegardée avec succès avant la fermeture.");
+        }
     }
 }

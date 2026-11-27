@@ -40,7 +40,7 @@
 
 <br/>
 
-*"Image legend"*
+*"Picture of a list"*
 
 </div>
 
