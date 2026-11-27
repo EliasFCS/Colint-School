@@ -1,30 +1,42 @@
-use bevy::prelude::*;
-use bevy::window::WindowResolution;
+/* Command to compile the program faster: " cargo run --features bevy/dynamic_linking " */ 
 
-// cargo run --features bevy/dynamic_linking
+use bevy::prelude::*; /* Inclusion de Bevy avec les librairies essentiels et autres. */
+use bevy::window::WindowResolution; /* Inclusion de bevy window pour pouvoir créer des fenêtres d'applications. */
 
-const PLAYER_SIZE: f32 = 50.0;
 
-#[derive(Component)]
-struct Player;
 
-#[derive(Component)]
-struct Speed(f32);
+/* [1]---- Components and Entities zone  ---- [1] */
 
-fn main() {
-    App::new()
-        .add_plugins(DefaultPlugins.set(WindowPlugin {
+const PLAYER_SIZE: f32 = 50.0; /* Définition entité. */
+
+#[derive(Component)] /* Définition component. */
+struct Player; /* Définition entité. */
+
+#[derive(Component)] /* Définition component. */
+struct Speed(f32); /* Définition entité. */
+
+
+
+/* [2]---- System's zone (avec le code de l'application) ---- [2] */
+
+fn main() { /* Début du point d'entrée, fonction main. */
+    App::new() /* Initialisation de la structure "app::new" de l'application. */
+    .add_plugins(DefaultPlugins.set(WindowPlugin {
             primary_window: Some(Window {
-                title: "Test jeu en Rust avec Bevy".into(),
+                title: "Test application en Rust avec Bevy".into(), /* Permet d'avoir une fenêtre pour l'application. */
                 resolution: WindowResolution::new(800, 600),
                 ..default()
             }),
             ..default()
-        }))
-        .add_systems(Startup, setup)
-        .add_systems(Update, move_player)
-        .run();
-}
+        })) mise en place des plugins par défaut. */
+    .add_systems(Startup, setup) /* Exécution de la fonction dès le début de l'exécution. */
+    .add_systems(Update, move_player) /* Exécution de la fonction à chaques frames (60 fois/sec). */
+    .run(); /* Execution de l'application ".run();" */
+} /* Fin fonction main. */
+
+
+
+/* [3]---- Other System's zone (Avec les sous fonctions de main) ---- [3] */
 
 fn setup(mut commands: Commands) {
     commands.spawn(Camera2d);
