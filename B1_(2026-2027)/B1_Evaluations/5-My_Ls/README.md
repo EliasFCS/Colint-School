@@ -8,15 +8,15 @@
   <a href="https://getbifrost.ai" target="_blank" rel="noopener">
     <img src="./Readme_assets/MakeFileBadge.svg" alt="Makefile Badge" width="180" height="35" />
   </a>
-  &nbsp;&nbsp;
+  &nbsp;
   <a href="https://koor.fr" target="_blank" rel="noopener">
     <img src="./Readme_assets/HeaderCBadge.svg" alt="Header C Badge" width="180" height="35" />
   </a>
-  &nbsp;&nbsp;
+  &nbsp;
   <a href="https://koor.fr" target="_blank" rel="noopener">
     <img src="./Readme_assets/CBadge.svg" alt="Language C Badge" width="180" height="35" />
   </a>
-  &nbsp;&nbsp;
+  &nbsp;
   <a href="https://learn.microsoft.com/fr-fr/windows/wsl/install" target="_blank" rel="noopener">
     <img src="./Readme_assets/WSLBadge.svg" alt="WSL Badge" width="180" height="35" />
   </a>
